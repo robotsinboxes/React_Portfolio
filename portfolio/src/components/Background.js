@@ -1,13 +1,13 @@
-import landscape from '../images/bwlandscape.jpg';
-// import styled from 'styled-components';
-import './Background.css';
+// import landscape from '../images/bwlandscape.jpg';
+// // import styled from 'styled-components';
+// import './Background.css';
 
-function Background() {
-    return (
-        <div className="backgroundImage">
-            <img src={landscape} alt="Cloud" />
-        </div>
-    );
-}
+// function Background() {
+//     return (
+//         <div className="backgroundImage">
+//             <img src={landscape} alt="Cloud" />
+//         </div>
+//     );
+// }
 
-export default Background;
+// export default Background;
