@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretSquareDown } from "@fortawesome/free-solid-svg-icons";
 import './Nav.css';
 
+
 const Nav = () => {
     return (
         <nav className="navbar navbar-expand-lg">

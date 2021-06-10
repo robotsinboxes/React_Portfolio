@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     background-color: rgb(3, 3, 3);
+    z-index: 2;
 }
 
 .nav-link {
@@ -16,9 +17,9 @@
     border-radius: 50%;
 }
 
-.nav-link:focus {
+/* .nav-link:focus {
 
-}
+} */
 
 .navbar-toggler {
     color: white;
