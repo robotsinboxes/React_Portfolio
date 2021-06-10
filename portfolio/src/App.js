@@ -7,12 +7,16 @@ import Nav from './components/Nav';
 import Wrapper from './components/Wrapper';
 // import Background from './components/Background';
 import Content from './components/Content';
-import Card from './components/Card';
+import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+// import Nav from './components/Nav';
 
 function App() {
   return (
-    <div style={{ backgroundImage: `url(${background})`}}>
-      <Nav />
+    <div className="background">
+      <div>
+        <Nav />
+      </div>
     </div>
   );
 }

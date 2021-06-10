@@ -1,0 +1,30 @@
+.navbar {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(3, 3, 3);
+}
+
+.nav-link {
+    color: rgb(177, 94, 123);
+    font-size: 1.2em;
+    margin-right: 80px;
+}
+
+.nav-link:hover {
+    color: white;
+    border: 1px solid rgb(177, 94, 123);
+    border-radius: 50%;
+}
+
+.nav-link:focus {
+
+}
+
+.navbar-toggler {
+    color: white;
+    margin-right: 20px;
+}
+
+.logo {
+    margin-left: 3em;
+}
