@@ -6,11 +6,19 @@
     align-items: center;
 }
 
-.card { 
-    padding: 20px;
-    margin: 20px;
-    background-color: rgba(89, 52, 99, 0.988);
+.works { 
+    background-color: black;
     color: white;
     font-size: 20px;
     text-align: center;
+    margin-bottom: 50px;
+}
+
+.card { 
+    border: 1px solid white;
+
+}
+
+.stardust { 
+    margin-left: 20px;
 }

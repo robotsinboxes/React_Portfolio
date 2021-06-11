@@ -5,6 +5,7 @@ import './App.css';
 import Nav from './components/Nav';
 import About from './components/About';
 import Works from './components/Works';
+import Contact from './components/Contact';
 import ContactBtn from './components/ContactBtn';
 import Particles from "react-particles-js";
 
@@ -71,12 +72,16 @@ function App() {
         />
 
       </div> 
-        <div className="works-container">
+        <div className="contact-btn">
             <ContactBtn />
         </div>
    
-        <div className="contact">
+        <div className="works">
             <Works />
+        </div>
+
+        <div className="contact">
+            <Contact />
         </div>
 
       </div>
