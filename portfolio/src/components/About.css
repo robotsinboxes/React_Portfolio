@@ -1,8 +1,12 @@
 .about-container {
     z-index: 0;
+}
+
+.about-text {
     background-color: rgba(0, 0, 0, 0);
     font-size: 30px;
     color: white;
     padding: 100px 200px 50px 200px;
     text-align: center;
+    z-index: 0;
 }

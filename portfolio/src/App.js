@@ -4,7 +4,8 @@ import './App.css';
 // import { Button, Container, Row, Col } from 'react-bootstrap';
 import Nav from './components/Nav';
 import About from './components/About';
-import Contact from './components/Contact';
+import Works from './components/Works';
+import ContactBtn from './components/ContactBtn';
 import Particles from "react-particles-js";
 
 function App() {
@@ -70,13 +71,12 @@ function App() {
         />
 
       </div> 
-      {/* <div className="about-section"> 
-        <div className="about-container">
-            <About />
+        <div className="works-container">
+            <ContactBtn />
         </div>
-      </div> */}
+   
         <div className="contact">
-          <Contact />
+            <Works />
         </div>
 
       </div>
