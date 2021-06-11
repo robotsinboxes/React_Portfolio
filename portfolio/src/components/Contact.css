@@ -1,29 +1,34 @@
-.header-wrapper {
-    position: relative;
-    background: url('../img/starrynight.jpg') no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 90vh;
-}
+/* .container { 
+    background-color: black;
+} */
+
+
+ .header-wrapper {
+    position: relative; 
+    background-color: black; 
+    height: 50vh;
+    margin-top: 
+} 
 
 .main-info {
+    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 0;  
+    left: 0; 
     right: 0;
     bottom: 0;
     z-index: 1;
 }
 
-.main-info h2 {
+/* .main-info h2 {
     color: rgb(177, 94, 123);
     text-transform: uppercase;
-}  
+}   */
 
 .typed-text {
     font-size: 2rem;
@@ -31,9 +36,9 @@
 }
 
 @media (max-width: 768px) {
-    .main-info h2 {
+    /* .main-info h2 {
         font-size: 1.5rem!important;
-    }
+    } */
     .main-info {
         font-size: .75rem!important;
     }

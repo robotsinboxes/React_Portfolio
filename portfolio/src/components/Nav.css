@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     background-color: rgb(3, 3, 3);
-    z-index: 2;
+    z-index: 0;
+    display: flex;
 }
 
 .nav-link {
@@ -28,4 +29,10 @@
 
 .logo {
     margin-left: 3em;
+}
+
+.greeting { 
+    color: white;
+    font-size: 80px;
+    padding-left: 60%;
 }

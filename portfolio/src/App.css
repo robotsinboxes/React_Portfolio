@@ -5,19 +5,20 @@
 }
 
 .background {
-  /* background-image: url("./img/gold.jpg");
+  background-color: black;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
-  height: 100vh; */
+  height: 100vh;
+  z-index: 1;
 }
 
 .tsparticles-canvas-el {
   position: absolute;
   height: 100vh;
   width: 100vw;
-  z-index: 1;
+  z-index: 2;
 }
 
 @media(max-width: 768px) {
@@ -26,3 +27,19 @@
   }
 }
 
+/*********************PARALLAX************************/
+/* 
+.parallax {
+  margin-top: 40%; 
+  background-color: black;
+   min-height: 60vh; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-scroll { 
+  height: 500px;
+  background-color: white;
+} */
