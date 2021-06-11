@@ -1,24 +1,31 @@
-function Nav() {
+import React from "react";
+import Logo from "../img/pulsingCircle.gif";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCaretSquareDown } from "@fortawesome/free-solid-svg-icons";
+import './Nav.css';
+
+
+const Nav = () => {
     return (
-      <div>
-        <nav className="navbar navbar-expand-lg  navbar-expand-sm navbar-light bg-light">
-            <div className="container-fluid">
-                <a className="navbar-brand" href="#">Lisa Goodell</a>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-                <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div className="navbar-nav">
-                        <a className="nav-link active" aria-current="page" href="#">About</a>
-                        <a className="nav-link" href="#">Work</a>
-                        <a className="nav-link" href="#">Contact</a>
-                        
-                    </div>
+        <nav className="navbar navbar-expand-lg">
+            <div className="container">
+            <a classNameName="navbar-brand" href="#"><img className='logo' src={Logo} height="250px" alt='logo'></img></a>
+            {/* <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <FontAwesomeIcon icon={faCaretSquareDown} />
+            </button> */}
+            {/* <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div className="navbar-nav ml-auto">
+                    <a className="nav-item nav-link" href="#">About</a>
+                    <a className="nav-item nav-link" href="#">Work</a>
+                    <a className="nav-item nav-link" href="#">Contact</a>
                 </div>
+            </div> */}
+            </div>
+            <div className="greeting">
+                <p>Hello.</p>
             </div>
         </nav>
-      </div>
-    );
+    )
 }
 
 export default Nav;
