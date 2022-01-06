@@ -1,0 +1,13 @@
+.intro-content {
+    text-align: right;
+    justify-content: right;
+    margin-top: 5%;
+    margin-right: 10%;
+    font-size: 1rem;
+}
+
+span {
+    color: yellow;
+    font-size: 1rem;
+    font-weight: 50px;
+}

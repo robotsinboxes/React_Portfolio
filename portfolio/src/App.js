@@ -1,20 +1,22 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import background from './img/cloud.jpg';
-import { Button, Container, Row, Col } from 'react-bootstrap';
-import Nav from './components/Nav';
-import Wrapper from './components/Wrapper';
-// import Background from './components/Background';
-import Content from './components/Content';
-import Card from './components/Card';
+// import { Button, Container, Row, Col } from 'react-bootstrap';
+import Navbar from './components/Navbar';
+import Background from './components/Background';
 
 function App() {
   return (
-    <div style={{ backgroundImage: `url(${background})`}}>
-      <Nav />
+    <div className="main-container">
+      <div className="navbar">
+         <Navbar />
+      </div> 
+       <div className="bg-container">
+         <Background />
+      </div>  
     </div>
   );
 }
 
 export default App;
+
