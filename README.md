@@ -1,3 +1,5 @@
-# Lisa Goodell Portfolio
+# Portfolio
 
-My portfolio in progress - using React
+My portfolio built using React.
+https://robotsinboxes.github.io/React_Portfolio/
+
