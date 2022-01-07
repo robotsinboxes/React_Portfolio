@@ -4,7 +4,12 @@ import './Button.css';
 const Button = (props) => {
     return (
         <div className="buttons">
-            <button className="btn-outline-light button-all" onClick={() => {window.open("http://www.imlisagoodell.com", "_blank")}}>{props.btn}</button>
+            <a  className="btn-link"
+                href={props.href} 
+                target="_blank"
+                rel="noreferrer"
+                aria-label="github"
+            >{props.btn}</a>                 
         </div>
     )
 }

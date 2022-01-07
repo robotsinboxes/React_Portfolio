@@ -1,7 +1,15 @@
-.button-all {
-    font-size: .5rem;
-    border-radius: 10px;
+.btn-link {
+    font-size: .75rem;
     padding: 5px;
-    color: rgb(20, 49, 61);
+    border: 1px solid rgba(255,255,255,.70);
+    border-radius: 10px;
+    color: rgb(255, 36, 131);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn-link:active {
+    color: rgba(255,255,255,.70);
 }
 

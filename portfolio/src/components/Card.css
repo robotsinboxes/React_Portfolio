@@ -23,14 +23,14 @@
 }
 
 .card-desc p {
-    font-size: .5rem;
+    font-size: .70rem;
 }
 
 .card:hover {
     box-shadow: 5px 8px 10px 2px rgb(27, 57, 70) !important;
 }
 
-.github-button {
+.project-btn-links {
     font-size: .5rem;
-    color: blue;
+    color: rgba(255,255,255,.70);
 }

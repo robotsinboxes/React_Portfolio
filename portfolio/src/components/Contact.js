@@ -14,6 +14,7 @@ const Contact = () => {
                     <a 
                         href="https://www.linkedin.com/in/lisa-goodell/" 
                         target="_blank"
+                        rel="noreferrer"
                         aria-label="linkedin"
                     >LinkedIn</a>
                 </div>
@@ -21,6 +22,7 @@ const Contact = () => {
                     <a 
                         href="https://github.com/robotsinboxes" 
                         target="_blank"
+                        rel="noreferrer"
                         aria-label="github"
                     >Github</a>                
                 </div>
@@ -28,6 +30,7 @@ const Contact = () => {
                     <a 
                         href="mailto: robotsinboxes@gmail.com" 
                         target="_blank"
+                        rel="noreferrer"
                         aria-label="email"
                     >Email</a>                 
                 </div>

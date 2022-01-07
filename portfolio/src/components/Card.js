@@ -13,11 +13,9 @@ const Card = (props) => {
                     <p>{props.title}</p>
                 </div>
                 <hr></hr>
+                
                 <div className="text-center card-desc">
                     <p>{props.desc}</p>
-                </div>
-                <div className="text-center github-button">
-                    <Button btn="Github Repository" />
                 </div>
             </div>
         </div>
