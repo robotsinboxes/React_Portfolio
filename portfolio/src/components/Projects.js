@@ -43,8 +43,10 @@ const Projects = () => {
                 />
                 <div className="project-btn-links text-center">
                     <Button href="https://github.com/robotsinboxes/TAP101" btn="Github Repo"></Button>
-                </div>                
+                </div> 
             </div>
+            <br></br>               
+
         </div>
     )
 }

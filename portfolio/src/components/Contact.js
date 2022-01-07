@@ -9,31 +9,30 @@ const Contact = () => {
             <div className="contact-title">
                 <h5>CONTACT</h5>
             </div>
-            <div className="contact-links row">
-                <div className="linkedin col-sm-2">
-                    <a 
+            <div className="row">
+                <div className="contact-links">
+                    <a className="btn btn-outline-light"
                         href="https://www.linkedin.com/in/lisa-goodell/" 
                         target="_blank"
                         rel="noreferrer"
                         aria-label="linkedin"
                     >LinkedIn</a>
-                </div>
-                <div className="github col-sm-2">
-                    <a 
+            
+                    <a className="btn btn-outline-light" 
                         href="https://github.com/robotsinboxes" 
                         target="_blank"
                         rel="noreferrer"
                         aria-label="github"
                     >Github</a>                
-                </div>
-                <div className="email col-sm-2">
-                    <a 
+             
+                    <a className="btn btn-outline-light" 
                         href="mailto: robotsinboxes@gmail.com" 
                         target="_blank"
                         rel="noreferrer"
                         aria-label="email"
                     >Email</a>                 
                 </div>
+                <div className="spaceHolder"></div>
             </div> 
       </div>
     )

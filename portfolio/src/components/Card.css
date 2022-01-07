@@ -5,10 +5,6 @@
     border-radius: 20px;
 }
 
-.cards {
-    padding: 10px;
-}
-
 .card-img {
     width: 80%;
     margin: 10% 10% 0 10%;
@@ -17,13 +13,13 @@
 }
 
 .card-body {
-    border-radius: 10px;
     color: rgba(255,255,255,.70);
-
+    margin: 10px 10px 0 10px;
+    padding: 0 20px 0 20px;
 }
 
 .card-desc p {
-    font-size: .70rem;
+    font-size: .7rem;
 }
 
 .card:hover {

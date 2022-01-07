@@ -4,11 +4,6 @@
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
 }
-/* 
-.logo {
-  background-color: black;
-  z-index: 0;
-} */
 
 .main-container {
   background-color: rgb(20, 49, 61);
@@ -36,21 +31,6 @@
   }
 }
 
-/*********************PARALLAX************************/
 
-/* .parallax {
-  margin-top: 40%; 
-  background-color: black;
-  min-height: 60vh;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.parallax-scroll { 
-  height: 500px;
-  background-color: white;
-} */
 
 
