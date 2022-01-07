@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Contact.css';
-import Button from './Button';
+// import Button from './Button';
 
 const Contact = () => {
     return (
@@ -11,13 +11,25 @@ const Contact = () => {
             </div>
             <div className="contact-links row">
                 <div className="linkedin col-sm-2">
-                    <Button btn="LinkedIn"></Button>
+                    <a 
+                        href="https://www.linkedin.com/in/lisa-goodell/" 
+                        target="_blank"
+                        aria-label="linkedin"
+                    >LinkedIn</a>
                 </div>
                 <div className="github col-sm-2">
-                    <Button btn="Github" href="https://github.com/robotsinboxes" target="_blank"></Button>
+                    <a 
+                        href="https://github.com/robotsinboxes" 
+                        target="_blank"
+                        aria-label="github"
+                    >Github</a>                
                 </div>
                 <div className="email col-sm-2">
-                    <Button btn="Email" href="mailto: robotsinboxes@gmail.com" target="_blank"></Button>
+                    <a 
+                        href="mailto: robotsinboxes@gmail.com" 
+                        target="_blank"
+                        aria-label="email"
+                    >Email</a>                 
                 </div>
             </div> 
       </div>

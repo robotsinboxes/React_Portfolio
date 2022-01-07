@@ -11,7 +11,9 @@
 }
 
 .contact-links {
-    padding-bottom: 10%;
+    padding-bottom: 8%;
     margin: 20px;
+    justify-content: center;
+    color: white;
 }
 

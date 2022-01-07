@@ -3,7 +3,7 @@
     margin-top: 10%;
     margin-right: 10%;
     font-size: 1.8rem;
-    border-right: solid 2px rgb(255, 36, 131);
+    border-right: solid 4px rgb(255, 36, 131);
     white-space: nowrap;
     overflow: hidden;    
     color: rgba(255,255,255,.70);
@@ -14,7 +14,7 @@
     /* Animation */
 
 .hello {
-    animation: animated-text 4s steps(17,end) 1s 1 normal both,
+    animation: animated-text 3s steps(17,end) 1s 1 normal both,
     animated-cursor 600ms steps(17,end) infinite;
 }
     
