@@ -28,7 +28,7 @@
     /* cursor animations */
     
 @keyframes animated-cursor{
-    from{border-right-color: rgba(0,255,0,.75);}
+    from{border-right-color: rgb(255, 36, 131)}
     to{border-right-color: transparent;}
 }
 

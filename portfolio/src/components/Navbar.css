@@ -1,5 +1,5 @@
 :root {
-    --background: rgb(30, 71, 87);
+    --background: rgb(20, 49, 61);
     --neon-light-pink: rgb(255, 230, 255);
     --neon-med-pink: rgb(255, 101, 189);
     --neon-dark-pink: rgb(255, 36, 131);
@@ -15,251 +15,253 @@
   *
   */
   
-  .navbar {
-    display: flex;
-    width: 100vw;
-    background: var(--background);
-    font-size: .8rem;
-    padding: 5px;
-  }
-  
-  #navbarSupportedContent {
-    text-align: center;
-  }
-  
+.navbar {
+  display: flex;
+  width: 100vw;
+  background: var(--background);
+  font-size: .8rem;
+  padding: 5px;
+}
+
+#navbarSupportedContent {
+  text-align: center;
+}
+
+.navbar-brand span {
+  font-family: 'Poppins', sans-serif;  
+  font-size: 1.2em;
+}
+
+a.nav-link {
+  font-family: 'Poppins', sans-serif;
+  color: var(--nav-links-toggler); 
+}
+
+.navbar-links {
+  margin-right: 5%;
+}
+
+a.nav-link:hover {
+  color: var(--nav-pink);
+}
+
+.navbar-toggler {
+  color: var(--nav-links-toggler);
+  background-color: pink;
+  margin-right: 10%;
+}
+
+@media only screen and (min-width: 481px) {
   .navbar-brand span {
-    font-family: 'Poppins', sans-serif;  
     font-size: 1.2em;
   }
-  
   a.nav-link {
-    font-family: 'Poppins', sans-serif;
-    color: var(--nav-links-toggler); 
-  }
-
-
-  
-  a.nav-link:hover {
-    color: var(--nav-pink);
-  }
-  
-  .navbar-toggler {
-    color: var(--nav-links-toggler);
-  }
-  
-
-  
-  @media only screen and (min-width: 481px) {
-    .navbar-brand span {
-      font-size: 1.2em;
-    }
-    a.nav-link {
-        font-size: .8em;
-        margin-right: 0.8em;
-    }
-  }
-  
-  @media only screen and (min-width: 769px) {
-    .navbar-brand span {
-      font-size: 1.4em;
-    }
-    a.nav-link {
-      font-size: 1em;
+      font-size: .8em;
       margin-right: 0.8em;
-    }
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .navbar-brand span {
+    font-size: 1.4em;
+  }
+  a.nav-link {
+    font-size: 1em;
+    margin-right: 0.8em;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .navbar-brand span {
+    font-size: 1.6em;
+  }
+  a.nav-link {
+    font-size: 1.1em;
+    margin-right: 0.8em;
+  }
+}
+  
+/*
+*
+* =====================
+* NEON NAME
+* =====================
+*
+*/
+
+.neon-text {
+  margin-left: 3%;
+}
+
+.g {
+  padding-left: 0.5em;
+}
+
+@keyframes blink {
+  0%,
+  22%,
+  30%,
+  75% {
+    color: var(--neon-light-pink);
+    text-shadow: 0 0 0.6rem var(--neon-light-pink), 0 0 1.5rem var(--neon-med-pink),
+      -0.2rem 0.1rem 1rem var(--neon-med-pink), 0.2rem 0.1rem 1rem var(--neon-med-pink),
+      0 -0.5rem 2rem var(--neon-dark-pink), 0 0.5rem 3rem var(--neon-dark-pink);
+  }
+  28%,
+  33% {
+    color: var(--neon-med-pink);
+    text-shadow: none;
+  }
+  82%,
+  97% {
+    color: var(--neon-dark-pink);
+    text-shadow: none;
+  }
+}
+
+.flicker {
+  animation: shine 2s forwards, blink 10s 2s infinite;
+}
+
+.fast-flicker {
+  animation: shine 2s forwards, blink 8s 1s infinite;
+}
+
+@keyframes shine {
+  0% {
+    color: #6b1839;
+    text-shadow: none;
+  }
+  100% {
+    color: var(--neon-light-pink);
+    text-shadow: 0 0 0.6rem var(--neon-light-pink), 0 0 1.5rem var(--neon-med-pink),
+      -0.2rem 0.1rem 1rem var(--neon-med-pink), 0.2rem 0.1rem 1rem var(--neon-med-pink),
+      0 -0.5rem 2rem var(--neon-dark-pink), 0 0.5rem 3rem var(--neon-dark-pink);
+  }
+}
+
+@keyframes flicker {
+  from {
+    opacity: 1;
   }
 
-  @media only screen and (min-width: 1025px) {
-    .navbar-brand span {
-      font-size: 1.6em;
-    }
-    a.nav-link {
-      font-size: 1.1em;
-      margin-right: 0.8em;
-    }
+  4% {
+    opacity: 0.9;
   }
-   
-  /*
-  *
-  * =====================
-  * NEON NAME
-  * =====================
-  *
-  */
-  
-  .neon-text {
-    margin-left: 3%;
+
+  6% {
+    opacity: 0.85;
   }
-  
-  .g {
-    padding-left: 0.5em;
+
+  8% {
+    opacity: 0.95;
   }
-  
-  @keyframes blink {
-    0%,
-    22%,
-    30%,
-    75% {
-      color: var(--neon-light-pink);
-      text-shadow: 0 0 0.6rem var(--neon-light-pink), 0 0 1.5rem var(--neon-med-pink),
-        -0.2rem 0.1rem 1rem var(--neon-med-pink), 0.2rem 0.1rem 1rem var(--neon-med-pink),
-        0 -0.5rem 2rem var(--neon-dark-pink), 0 0.5rem 3rem var(--neon-dark-pink);
-    }
-    28%,
-    33% {
-      color: var(--neon-med-pink);
-      text-shadow: none;
-    }
-    82%,
-    97% {
-      color: var(--neon-dark-pink);
-      text-shadow: none;
-    }
+
+  10% {
+    opacity: 0.9;
   }
-  
-  .flicker {
-    animation: shine 2s forwards, blink 10s 2s infinite;
+
+  11% {
+    opacity: 0.922;
   }
-  
-  .fast-flicker {
-    animation: shine 2s forwards, blink 8s 1s infinite;
+
+  12% {
+    opacity: 0.9;
   }
-  
-  @keyframes shine {
-    0% {
-      color: #6b1839;
-      text-shadow: none;
-    }
-    100% {
-      color: var(--neon-light-pink);
-      text-shadow: 0 0 0.6rem var(--neon-light-pink), 0 0 1.5rem var(--neon-med-pink),
-        -0.2rem 0.1rem 1rem var(--neon-med-pink), 0.2rem 0.1rem 1rem var(--neon-med-pink),
-        0 -0.5rem 2rem var(--neon-dark-pink), 0 0.5rem 3rem var(--neon-dark-pink);
-    }
+
+  14% {
+    opacity: 0.95;
   }
-  
-  @keyframes flicker {
-    from {
-      opacity: 1;
-    }
-  
-    4% {
-      opacity: 0.9;
-    }
-  
-    6% {
-      opacity: 0.85;
-    }
-  
-    8% {
-      opacity: 0.95;
-    }
-  
-    10% {
-      opacity: 0.9;
-    }
-  
-    11% {
-      opacity: 0.922;
-    }
-  
-    12% {
-      opacity: 0.9;
-    }
-  
-    14% {
-      opacity: 0.95;
-    }
-  
-    16% {
-      opacity: 0.98;
-    }
-  
-    17% {
-      opacity: 0.9;
-    }
-  
-    19% {
-      opacity: 0.93;
-    }
-  
-    20% {
-      opacity: 0.99;
-    }
-  
-    24% {
-      opacity: 1;
-    }
-  
-    26% {
-      opacity: 0.94;
-    }
-  
-    28% {
-      opacity: 0.98;
-    }
-  
-    37% {
-      opacity: 0.93;
-    }
-  
-    38% {
-      opacity: 0.5;
-    }
-  
-    39% {
-      opacity: 0.96;
-    }
-  
-    42% {
-      opacity: 1;
-    }
-  
-    44% {
-      opacity: 0.97;
-    }
-  
-    46% {
-      opacity: 0.94;
-    }
-  
-    56% {
-      opacity: 0.9;
-    }
-  
-    58% {
-      opacity: 0.9;
-    }
-  
-    60% {
-      opacity: 0.99;
-    }
-  
-    68% {
-      opacity: 1;
-    }
-  
-    70% {
-      opacity: 0.9;
-    }
-  
-    72% {
-      opacity: 0.95;
-    }
-  
-    93% {
-      opacity: 0.93;
-    }
-  
-    95% {
-      opacity: 0.95;
-    }
-  
-    97% {
-      opacity: 0.93;
-    }
-  
-    to {
-      opacity: 1;
-    }
+
+  16% {
+    opacity: 0.98;
   }
+
+  17% {
+    opacity: 0.9;
+  }
+
+  19% {
+    opacity: 0.93;
+  }
+
+  20% {
+    opacity: 0.99;
+  }
+
+  24% {
+    opacity: 1;
+  }
+
+  26% {
+    opacity: 0.94;
+  }
+
+  28% {
+    opacity: 0.98;
+  }
+
+  37% {
+    opacity: 0.93;
+  }
+
+  38% {
+    opacity: 0.5;
+  }
+
+  39% {
+    opacity: 0.96;
+  }
+
+  42% {
+    opacity: 1;
+  }
+
+  44% {
+    opacity: 0.97;
+  }
+
+  46% {
+    opacity: 0.94;
+  }
+
+  56% {
+    opacity: 0.9;
+  }
+
+  58% {
+    opacity: 0.9;
+  }
+
+  60% {
+    opacity: 0.99;
+  }
+
+  68% {
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 0.9;
+  }
+
+  72% {
+    opacity: 0.95;
+  }
+
+  93% {
+    opacity: 0.93;
+  }
+
+  95% {
+    opacity: 0.95;
+  }
+
+  97% {
+    opacity: 0.93;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

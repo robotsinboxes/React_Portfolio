@@ -1,11 +1,9 @@
 import React from 'react';
-import './Background.css';
 import Particles from "react-particles-js";
-// import CircleLogo from './CircleLogo';
 import Greeting from './Greeting';
 import Intro from './Intro';
 
-function Background() {
+const Background = (props) => {
     return (
       <>
         <div className="particles">

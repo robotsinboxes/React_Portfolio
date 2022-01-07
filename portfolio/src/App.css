@@ -10,8 +10,11 @@
   z-index: 0;
 } */
 
+.main-container {
+  background-color: rgb(20, 49, 61);
+}
 .bg-container {
-  background-color: rgb(30, 73, 92);
+  background-color: rgb(20, 49, 61);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -35,10 +38,10 @@
 
 /*********************PARALLAX************************/
 
-.parallax {
+/* .parallax {
   margin-top: 40%; 
   background-color: black;
-  /* min-height: 60vh; */
+  min-height: 60vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -48,6 +51,6 @@
 .parallax-scroll { 
   height: 500px;
   background-color: white;
-}
+} */
 
 

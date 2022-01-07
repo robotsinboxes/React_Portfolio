@@ -1,21 +1,21 @@
 import React from 'react';
 import './Navbar.css';
 
-function Navbar() {
+const Navbar = () => {
     return (
-      <div class="navbar navbar-expand-sm navbar-fixed-top">
-        <div class="neon-text navbar-brand link-scroll" href="#">
-            <span class="fast-flicker">L</span>
-            <span class="fast-flicker">I</span>
-            <span class="fast-flicker">S</span> 
-            <span class="flicker">A</span>
-            <span class="fast-flicker g">G</span>
-            <span class="flicker">O</span>
-            <span class="flicker">O</span>
-            <span class="fast-flicker">D</span>
-            <span class="fast-flicker">E</span>
-            <span class="fast-flicker">L</span>
-            <span class="fast-flicker">L</span>
+      <div className="navbar navbar-expand-sm navbar-fixed-top">
+        <div className="neon-text navbar-brand link-scroll" href="#">
+            <span className="fast-flicker">L</span>
+            <span className="fast-flicker">I</span>
+            <span className="fast-flicker">S</span> 
+            <span className="flicker">A</span>
+            <span className="fast-flicker g">G</span>
+            <span className="flicker">O</span>
+            <span className="flicker">O</span>
+            <span className="fast-flicker">D</span>
+            <span className="fast-flicker">E</span>
+            <span className="fast-flicker">L</span>
+            <span className="fast-flicker">L</span>
         </div>
         <button 
             type="button" 
@@ -24,22 +24,22 @@ function Navbar() {
             aria-controls="navbarSupportedContent" 
             aria-expanded="false" 
             aria-label="Toggle navigation" 
-            class="navbar-toggler">
-            <span class="fa fa-bars"></span>
+            className="navbar-toggler">
+            <span><i className="fa fa-bars"></i></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                <a href="#intro" class="nav-link link-scroll">Home</a>
+        <div className="collapse navbar-collapse navbar-links" id="navbarSupportedContent">
+            <ul className="navbar-nav ml-auto">
+                <li className="nav-item">
+                    <a href="#intro" className="nav-link link-scroll">Home</a>
                 </li>
-                <li class="nav-item">
-                <a href="#about" class="nav-link link-scroll">About</a>
+                <li className="nav-item">
+                    <a href="#about" className="nav-link link-scroll">About</a>
                 </li>
-                <li class="nav-item">
-                <a href="#portfolio" class="nav-link link-scroll">Portfolio</a>
+                <li className="nav-item">
+                    <a href="#projects" className="nav-link link-scroll">Projects</a>
                 </li>
-                <li class="nav-item">
-                <a href="#contact" class="nav-link link-scroll">Contact</a>
+                <li className="nav-item">
+                    <a href="#contact" className="nav-link link-scroll">Contact</a>
                 </li>
             </ul>
         </div>

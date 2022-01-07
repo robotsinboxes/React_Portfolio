@@ -1,12 +1,25 @@
 .about-container {
     z-index: 0;
+    text-align: center;
+    color: rgba(255,255,255,.70);
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid rgba(78, 80, 78, 0.79);
+    border-radius: 20px;
+    margin: 5%;
+        background: radial-gradient(
+        rgb(20, 49, 61), 
+        rgb(27, 57, 70), 
+        rgb(20, 49, 61)
+    )
 }
 
-.about-text {
-    background-color: rgba(0, 0, 0, 0);
-    font-size: 30px;
+.about-title {
+    padding-top: 20px;
+    color: rgb(255, 36, 131);
+}
+
+.about-content p {
+    font-size: .8rem;
     color: white;
-    padding: 100px 200px 50px 200px;
-    text-align: center;
-    z-index: 0;
+    padding: 10px;
 }

@@ -1,0 +1,36 @@
+.card {
+    margin: 10px 20px;
+    background-color: rgb(20, 49, 61);
+    border: 3px solid rgba(78, 80, 78, 0.79);
+    border-radius: 20px;
+}
+
+.cards {
+    padding: 10px;
+}
+
+.card-img {
+    width: 80%;
+    margin: 10% 10% 0 10%;
+    border: .5px solid rgba(78, 80, 78, 0.79);
+    border-radius: 50px;
+}
+
+.card-body {
+    border-radius: 10px;
+    color: rgba(255,255,255,.70);
+
+}
+
+.card-desc p {
+    font-size: .5rem;
+}
+
+.card:hover {
+    box-shadow: 5px 8px 10px 2px rgb(27, 57, 70) !important;
+}
+
+.github-button {
+    font-size: .5rem;
+    color: blue;
+}

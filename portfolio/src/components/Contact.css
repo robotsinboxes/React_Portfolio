@@ -1,12 +1,17 @@
 .contact-info {
-    background-color: black;
+    background-color: rgb(20, 49, 61);
     font-size: 24px;
-    display: flex;
+    text-align: center;
 }
 
-.card { 
-    padding: 10px;
-    margin: 10px 40px 10px 40px;
-    justify-content: space-between;
-    color: white
+.contact-title { 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(255, 36, 131);
 }
+
+.contact-links {
+    padding-bottom: 10%;
+    margin: 20px;
+}
+
