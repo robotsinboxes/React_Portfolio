@@ -61,7 +61,7 @@ a.nav-link:hover {
   }
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 768px) {
   .navbar-brand span {
     font-size: 1.4em;
   }
@@ -71,7 +71,7 @@ a.nav-link:hover {
   }
 }
 
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1024px) {
   .navbar-brand span {
     font-size: 1.6em;
   }

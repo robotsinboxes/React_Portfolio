@@ -1,6 +1,5 @@
 import React from 'react';
 import './Card.css';
-import Button from './Button';
 
 const Card = (props) => {
     return (

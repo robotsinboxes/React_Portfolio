@@ -15,9 +15,11 @@
     justify-content: center;
     color: white;
     padding-bottom: 40px;
+    width: 100vw;
 }
 
 .btn {
+    font-size: 0.8rem;
     font-style: space-around;
     justify-content: space-around;
     margin: 10px 10px;

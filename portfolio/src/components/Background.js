@@ -1,11 +1,13 @@
 import React from 'react';
 import Particles from "react-particles-js";
-import Greeting from './Greeting';
-import Intro from './Intro';
+import './Background.css';
+// import Greeting from './Greeting';
+// import Intro from './Intro';
+// import Quote from './Quote';
 
 const Background = (props) => {
     return (
-      <>
+      <div className="bg-intro">
         <div className="particles">
             <Particles
               params={{
@@ -61,16 +63,20 @@ const Background = (props) => {
             }} 
             />
         </div>
-        <div className="introduction">
-            <div className="greeting"> 
+        {/* <div className="introduction"> */}
+            {/* <div className="greeting"> 
                 <Greeting />
-            </div>
-            <br></br>
+            </div> */}
+            {/* <br></br>
             <div className="intro-container">
                 <Intro />
-            </div>
-        </div>
-      </>
+            </div> */}
+            {/* <div className="space-container"></div> */}
+            {/* <div className="quote-container">
+                <Quote />
+            </div>  */}
+        {/* </div>  */}
+      </div>
     )
 }
 

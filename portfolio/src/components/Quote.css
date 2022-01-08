@@ -1,0 +1,25 @@
+.quote {
+    align-items: right;
+    color: rgba(255,255,255,.70);
+    z-index: 9;
+    text-align: right;
+    margin: 20% 7% 5% auto;
+    padding-bottom: 1px;
+    font-size: 1.8rem;
+    white-space: nowrap;
+    overflow: hidden;    
+    color: rgba(255,255,255,.70);
+    position: relative;
+    right: 10px;
+}
+
+.quote-text h5 {
+    overflow-wrap: normal;
+    font-size: 1.2rem;
+    font-family: 'Reenie Beanie', cursive;
+}
+
+.quote-author p {
+    font-size: 0.5rem
+}
+

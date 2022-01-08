@@ -12,7 +12,7 @@ const Projects = () => {
             <div className="text-center portfolio-title">
                 <h5>PORTFOLIO</h5>
             </div>
-            <div className="row project1">
+            <div className="row project">
                 <Card 
                     img={T3W} 
                     title="Tethered to the Weather"
@@ -23,7 +23,7 @@ const Projects = () => {
                     <Button href="https://github.com/robotsinboxes/Tethered-to-the-Weather" btn="Github Repo"></Button>
                 </div>
             </div>
-            <div className="row project2">
+            <div className="row project">
                 <Card 
                     img={Filmbank} 
                     title="Filmbank"
@@ -34,7 +34,7 @@ const Projects = () => {
                     <Button href="https://github.com/robotsinboxes/FilmBank" btn="Github Repo"></Button>
                 </div>
             </div>
-            <div className="row project3">
+            <div className="row project">
                 <Card 
                     img={TAP101} 
                     title="Tutor Alumni Project"

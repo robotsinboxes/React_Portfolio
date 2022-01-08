@@ -4,7 +4,7 @@ import './Navbar.css';
 const Navbar = () => {
     return (
       <div className="navbar navbar-expand-sm navbar-fixed-top">
-        <div className="neon-text navbar-brand link-scroll" href="#">
+        <nav className="neon-text navbar-brand link-scroll" href="#">
             <span className="fast-flicker">L</span>
             <span className="fast-flicker">I</span>
             <span className="fast-flicker">S</span> 
@@ -16,7 +16,7 @@ const Navbar = () => {
             <span className="fast-flicker">E</span>
             <span className="fast-flicker">L</span>
             <span className="fast-flicker">L</span>
-        </div>
+        </nav>
         <button 
             type="button" 
             data-toggle="collapse" 
