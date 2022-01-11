@@ -25,9 +25,9 @@ const Navbar = () => {
             aria-expanded="false" 
             aria-label="Toggle navigation" 
             className="navbar-toggler">
-            <span><i className="fa fa-bars"></i></span>
+            <span className="fa fa-bars"></span>
         </button>
-        <div className="collapse navbar-collapse navbar-links" id="navbarSupportedContent">
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
                     <a href="#intro" className="nav-link link-scroll">Home</a>

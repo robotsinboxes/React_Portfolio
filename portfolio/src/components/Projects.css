@@ -1,13 +1,10 @@
 .projects-container {  
-    padding-bottom: 20%;
     margin: 5%;
 }
 
 .portfolio-title h5 {
-    padding-top: 20px;
+    margin-top: 5%;;
     color: rgb(255, 36, 131);
+    font-size: 3rem;
 }
 
-.project {
-    
-}

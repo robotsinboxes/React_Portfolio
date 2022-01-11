@@ -1,7 +1,7 @@
 .bg-intro {
     width: 100vw;
     height: 100vh;
-    /* position: relative; */
+    position: relative;
     margin: 10px
 }
 
@@ -13,6 +13,7 @@
     left: 0;
     right: 0;
     opacity: 0.6;
+    padding-top: 1rem;
 }
 
 .introduction {

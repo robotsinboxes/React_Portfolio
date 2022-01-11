@@ -3,8 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 // import { Button, Container, Row, Col } from 'react-bootstrap';
 import Navbar from './components/Navbar';
-// import Background from './components/Background';
-// import Greeting from './components/Greeting';
+import Background from './components/Background';
 import Intro from './components/Intro';
 import Quote from './components/Quote';
 import About from './components/About';
@@ -17,9 +16,6 @@ function App() {
       <div className="navbar">
             <Navbar />
       </div> 
-       {/* <div className="bg-container">
-            <Background />
-      </div>  */}
       <div className="intro">
             <Intro />
       </div> 
@@ -36,6 +32,9 @@ function App() {
       <div className="contact">
             <Contact />
       </div>
+      <div className="bg-container">
+            <Background />
+      </div> 
     </div>
   );
 }

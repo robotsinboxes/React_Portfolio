@@ -8,6 +8,8 @@
 .main-container {
   background-color: rgb(20, 49, 61);
   width: 100vw;
+  overflow-x: hidden;
+
 }
 
 .bg-container {

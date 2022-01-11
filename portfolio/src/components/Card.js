@@ -4,6 +4,7 @@ import './Card.css';
 const Card = (props) => {
     return (
         <div className="cards">
+            <br></br>
             <div className="text-center card-img">
                 <img src={props.img} className="rounded card-img-top" alt='project-img' />
             </div>
@@ -11,7 +12,7 @@ const Card = (props) => {
                 <div className="text-center card-title">
                     <p>{props.title}</p>
                 </div>
-                <hr></hr>
+                <hr className="divider"></hr>
                 <div className="text-center card-desc">
                     <p>{props.desc}</p>
                 </div>

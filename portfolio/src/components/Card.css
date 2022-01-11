@@ -9,7 +9,9 @@
     width: 80%;
     margin: 10% 10% 0 10%;
     border: .5px solid rgba(78, 80, 78, 0.79);
-    border-radius: 50px;
+    padding: 1px;
+    background-color: rgb(255, 255, 255);
+
 }
 
 .card-body {
@@ -18,10 +20,13 @@
     padding: 8px 0 8px 0;
 }
 
-.card-desc p {
-    font-size: .75rem;
-    margin-bottom: 0;
+.card-title p {
+    font-size: 1.5rem;
+}
 
+.card-desc p {
+    font-size: 1rem;
+    margin-bottom: 0;
 }
 
 .card:hover {
@@ -31,4 +36,8 @@
 .project-btn-links {
     font-size: .5rem;
     color: rgba(255,255,255,.70);
+}
+
+.divider {
+    color: whitesmoke;
 }
