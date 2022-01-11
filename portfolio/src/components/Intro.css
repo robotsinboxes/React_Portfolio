@@ -47,3 +47,10 @@ span {
     font-size: 1rem;
     font-weight: 50px;
 }
+
+
+@media only screen and (min-width: 445px) {
+    .intro-content h6 {
+      margin-left: 30%;
+    }
+  }

@@ -52,12 +52,22 @@ a.nav-link:hover {
 }
 
 @media only screen and (min-width: 481px) {
-  .navbar-brand span {
-    font-size: 1.2em;
-  }
   a.nav-link {
       font-size: .8em;
       margin-right: 0.8em;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .navbar {
+    margin-left: 0;
+    margin-right: 5%;
+  }
+}
+
+@media only screen and (min-width: 660) {
+  .navbar-nav {
+    font-size: 2rem;
   }
 }
 
@@ -90,7 +100,7 @@ a.nav-link:hover {
 */
 
 .neon-text {
-  margin-left: 3%;
+  margin-left: 8%;
 }
 
 .g {
