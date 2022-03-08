@@ -1,5 +1,5 @@
 :root {
-    --background: rgb(20, 49, 61);
+    --background: rgb(12, 29, 36);
     --neon-light-pink: rgb(255, 230, 255);
     --neon-med-pink: rgb(255, 101, 189);
     --neon-dark-pink: rgb(255, 36, 131);
@@ -32,13 +32,14 @@
   font-size: 1.5em;
 }
 
+.navbar-nav {
+  padding-right: 4%;
+}
+
 a.nav-link {
   font-family: 'Poppins', sans-serif;
   color: var(--nav-links-toggler); 
-}
-
-.navbar-links {
-  margin-right: 5%;
+  padding-right: 10%;
 }
 
 a.nav-link:hover {
@@ -47,8 +48,8 @@ a.nav-link:hover {
 
 .navbar-toggler {
   color: var(--nav-links-toggler);
-  background-color: pink;
-  margin-right: 10%;
+  background-color: white;
+  /* margin-right: 10%; */
 }
 
 @media only screen and (min-width: 481px) {

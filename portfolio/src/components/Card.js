@@ -16,8 +16,6 @@ const Card = (props) => {
                 <div className="text-center card-desc">
                     <p>{props.desc}</p>
                 </div>
-                
-                {/* <div className="spacing"></div> */}
             </div>
             <br></br>
         </div>

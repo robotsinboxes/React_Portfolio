@@ -1,56 +1,41 @@
-.hello {
-    z-index: 9;
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
     text-align: right;
-    margin: 50% 7% 5% auto;
-    padding-bottom: 1px;
-    font-size: 2.6rem;
-    border-right: solid 3px rgb(255, 36, 131);
-    white-space: nowrap;
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+    margin: 12% 10% 5% auto;
+    padding-right: 10%;
+    overflow: hidden;
+}
+
+.hello {
+    /* z-index: 9; */
+    padding-bottom: .5rem;
+    font-size: 2.8rem;
+    /* border-right: solid 3px rgb(255, 36, 131); */
+    /* white-space: nowrap; */
     overflow: hidden;    
     color: rgba(255,255,255,.70);
-    position: relative;
-}
-      
-    /* Animation */
-
-.hello {
-    animation: animated-text 5s steps(17,end) 1s infinite normal both,
-    animated-cursor 600ms steps(17,end) infinite;
-}
-    
-    /* text animation */
-    
-@keyframes animated-text {
-    from{width: 0;}
-    to{width: 286px;}
-}
-    
-    /* cursor animations */
-    
-@keyframes animated-cursor {
-    from{border-right-color: rgb(255, 36, 131)}
-    to{border-right-color: transparent;}
+    /* position: relative; */
 }
 
-.intro-content h6 {
+.intro-content h4 {
     text-align: right;
     justify-content: right;
-    font-size: 1.4rem;
-    margin: 5% 8% 5% 15%;
+    font-size: 1.6rem;
+    /* margin: 5% 8% 5% 15%; */
     color: rgba(255,255,255,.70);
     right: 10px;
     z-index: 0;
+    padding-bottom: 3rem;
 }
 
-span {
+.typed-text {
     color: yellow;
-    font-size: 1rem;
-    font-weight: 50px;
-}
+    font-style: italic;
+} 
 
 
-@media only screen and (min-width: 445px) {
-    .intro-content h6 {
-      margin-left: 30%;
-    }
-  }

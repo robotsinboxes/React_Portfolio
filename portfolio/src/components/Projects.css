@@ -1,10 +1,15 @@
-.projects-container {  
-    margin: 5%;
+.projects {
+    display: block;
+    align-items: center;
 }
 
 .portfolio-title h5 {
-    margin-top: 5%;;
+    margin-top: 20px;
     color: rgb(255, 36, 131);
     font-size: 3rem;
+}
+
+.project-btn-links {
+    margin-bottom: 20px;
 }
 

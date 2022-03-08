@@ -1,4 +1,5 @@
 .quote {
+    display: block;
     color: rgba(255,255,255,.70);
     z-index: 9;
     text-align: right;
@@ -6,19 +7,16 @@
     overflow: hidden;    
     color: rgba(255,255,255,.70);
     position: relative;
-    right: 10px;    
 }
 
 .quote-text h5 {
+    text-align: center;
     font-size: 1.8rem;
     font-family: 'Reenie Beanie', cursive;
-    margin: 70% 5% 5% 20%;
-
 }
 
 .quote-author p {
+    text-align: center;
     font-size: .9rem;
-    margin: 3% 5% 5% 20%;
-
 }
 

@@ -63,19 +63,7 @@ const Background = (props) => {
             }} 
             />
         </div>
-        {/* <div className="introduction"> */}
-            {/* <div className="greeting"> 
-                <Greeting />
-            </div> */}
-            {/* <br></br>
-            <div className="intro-container">
-                <Intro />
-            </div> */}
-            {/* <div className="space-container"></div> */}
-            {/* <div className="quote-container">
-                <Quote />
-            </div>  */}
-        {/* </div>  */}
+
       </div>
     )
 }

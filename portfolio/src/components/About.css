@@ -5,7 +5,7 @@
     background-color: rgba(0, 0, 0, 0);
     border: 3px solid rgba(78, 80, 78, 0.79);
     border-radius: 20px;
-    margin: 5% 5% 30% 5%;
+    margin: 5% 8% 5% 8%;
         background: radial-gradient(
         rgb(20, 49, 61), 
         rgb(27, 57, 70), 
@@ -15,9 +15,13 @@
 
 .about-title h5 {
     padding-top: 20px;
-    margin-bottom: 15%;
+    margin-bottom: 2%;
     font-size: 3rem;
     color: rgb(255, 36, 131);
+}
+
+.about-content {
+    padding-bottom: 20px;
 }
 
 .about-content p {
