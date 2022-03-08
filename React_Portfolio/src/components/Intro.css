@@ -1,0 +1,41 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+    margin: 15% 10% 10% auto;
+    padding-right: 10%;
+    overflow: hidden;
+}
+
+.hello {
+    /* z-index: 9; */
+    padding-bottom: .5rem;
+    font-size: 2.8rem;
+    /* border-right: solid 3px rgb(255, 36, 131); */
+    /* white-space: nowrap; */
+    overflow: hidden;    
+    color: rgba(255,255,255,.70);
+    /* position: relative; */
+}
+
+.intro-content h4 {
+    text-align: right;
+    justify-content: right;
+    font-size: 1.6rem;
+    /* margin: 5% 8% 5% 15%; */
+    color: rgba(255,255,255,.70);
+    right: 10px;
+    z-index: 0;
+    padding-bottom: 3rem;
+}
+
+.typed-text {
+    color: yellow;
+    font-style: italic;
+} 
+
+
