@@ -1,0 +1,32 @@
+.bg-intro {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    margin: 10px
+}
+
+.particles {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.6;
+    padding-top: 1rem;
+}
+
+.introduction {
+    z-index: 9;
+    margin: 20px;
+}
+
+/* used to separate the quote from intro - 
+not sure why is is overlaying */
+.space-container {
+    padding: 100px;
+}
+
+/* .quote-container {
+    z-index: 8;
+} */
