@@ -1,9 +1,7 @@
 import React from 'react';
 import Particles from "react-particles-js";
 import './Background.css';
-// import Greeting from './Greeting';
-// import Intro from './Intro';
-// import Quote from './Quote';
+
 
 const Background = (props) => {
     return (
@@ -13,17 +11,17 @@ const Background = (props) => {
               params={{
                 "particles": {
                     "number": {
-                        "value": 160,
+                        "value": 130,
                         "density": {
                             "enable": false
                         }
                 },
                 "size": {
-                    "value": 3,
+                    "value": 2,
                     "random": true,
                     "anim": {
-                        "speed": 4,
-                        "size_min": 0.3
+                        "speed": 1,
+                        "size_min": .5
                     }
                 },
                 "line_linked": {
@@ -31,7 +29,7 @@ const Background = (props) => {
                 },
                 "move": {
                     "random": true,
-                    "speed": 1,
+                    "speed": .25,
                     "direction": "top",
                     "out_mode": "out"
                 }
@@ -50,13 +48,13 @@ const Background = (props) => {
                 "modes": {
                     "bubble": {
                         "distance": 250,
-                        "duration": 2,
+                        "duration": 10,
                         "size": 0,
                         "opacity": 0
                     },
                     "repulse": {
                         "distance": 400,
-                        "duration": 4
+                        "duration": 10
                     }
                 }
               }

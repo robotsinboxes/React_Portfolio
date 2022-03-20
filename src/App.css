@@ -12,12 +12,12 @@
 }
 
 .bg-container {
-  background-color: rgb(17, 39, 48);
+  background-color: rgb(9, 21, 26);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
-  height: 100vh;  
+  height: 90vh;  
   z-index: 999;
 }
 
@@ -28,7 +28,8 @@
 } 
 
 .space-container {
-  padding: 10%;
+  padding: 1%;
+  height: 1vh;
 }
 
 @media(max-width: 768px) {

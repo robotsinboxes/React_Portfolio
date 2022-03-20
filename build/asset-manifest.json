@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.df520ca7.chunk.css",
-    "main.js": "/static/js/main.c87e03d7.chunk.js",
-    "main.js.map": "/static/js/main.c87e03d7.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b83279d6.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b83279d6.js.map",
-    "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.aad1fc09.chunk.js": "/static/js/2.aad1fc09.chunk.js",
-    "static/js/2.aad1fc09.chunk.js.map": "/static/js/2.aad1fc09.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.4c97ca4f.chunk.css.map": "/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.df520ca7.chunk.css.map": "/static/css/main.df520ca7.chunk.css.map",
-    "static/js/2.aad1fc09.chunk.js.LICENSE.txt": "/static/js/2.aad1fc09.chunk.js.LICENSE.txt"
+    "main.css": "/React_Portfolio/static/css/main.a2d3000c.chunk.css",
+    "main.js": "/React_Portfolio/static/js/main.c049ed9c.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.c049ed9c.chunk.js.map",
+    "runtime-main.js": "/React_Portfolio/static/js/runtime-main.79638d2f.js",
+    "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.79638d2f.js.map",
+    "static/css/2.8c502dfb.chunk.css": "/React_Portfolio/static/css/2.8c502dfb.chunk.css",
+    "static/js/2.352716ba.chunk.js": "/React_Portfolio/static/js/2.352716ba.chunk.js",
+    "static/js/2.352716ba.chunk.js.map": "/React_Portfolio/static/js/2.352716ba.chunk.js.map",
+    "index.html": "/React_Portfolio/index.html",
+    "static/css/2.8c502dfb.chunk.css.map": "/React_Portfolio/static/css/2.8c502dfb.chunk.css.map",
+    "static/css/main.a2d3000c.chunk.css.map": "/React_Portfolio/static/css/main.a2d3000c.chunk.css.map",
+    "static/js/2.352716ba.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.352716ba.chunk.js.LICENSE.txt",
+    "static/media/TAP101.7b828486.gif": "/React_Portfolio/static/media/TAP101.7b828486.gif",
+    "static/media/filmbank.6a900691.gif": "/React_Portfolio/static/media/filmbank.6a900691.gif",
+    "static/media/t3w.cec0ec68.gif": "/React_Portfolio/static/media/t3w.cec0ec68.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.b83279d6.js",
-    "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.aad1fc09.chunk.js",
-    "static/css/main.df520ca7.chunk.css",
-    "static/js/main.c87e03d7.chunk.js"
+    "static/js/runtime-main.79638d2f.js",
+    "static/css/2.8c502dfb.chunk.css",
+    "static/js/2.352716ba.chunk.js",
+    "static/css/main.a2d3000c.chunk.css",
+    "static/js/main.c049ed9c.chunk.js"
   ]
 }
