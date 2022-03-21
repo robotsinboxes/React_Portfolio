@@ -1,19 +1,16 @@
 :root {
     --primary-text: rgba(255,255,255,.85);
-    ;
     --secondary-text: rgb(252, 252, 15);
 }
 
 .intro {
     display: flex;
+    height: 100vh;
     flex-direction: column;
     justify-content: right;
     align-items: right;
-    text-align: right;
     padding: 65% 8% 0 8%;
     font-family: 'Poppins', sans-serif;
-    width: 100vw;
-    height: 100vh;
     overflow: hidden;
 }
 
@@ -53,5 +50,72 @@
     font-size: 1.5rem;
     padding: 1%;
 } 
+
+@media only screen and (min-width: 576px) {
+    .intro {
+        padding: 55% 8% 0 8%;
+    }
+    .intro-content h4 {
+        margin-left: 10%;
+    }
+    .skills {
+        margin: 10% 0 0 auto;
+        width: 60%;
+    } 
+}
+
+@media only screen and (min-width: 768px) {
+    .intro {
+        padding: 65% 8% 0 8%;
+    }
+    .hello {
+        font-size: 3rem;
+    }
+    .intro-content h4 {
+        margin-left: 25%;
+        font-size: 1.5rem;
+    }
+    .skills {
+        margin: 10% 0 0 auto;
+        width: 60%;
+    } 
+}
+
+@media only screen and (min-width: 1024px) {
+    .intro {
+        padding: 40% 8% 0 8%;
+    }
+    .hello {
+        padding-bottom: 3%;
+    }
+    .intro-content h4 {
+        margin-left: 30%;
+        font-size: 1.5rem;
+    }
+    .skills {
+        margin: 5% 0 0 auto;
+        width: 50%;
+    } 
+    .typed-text span {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+    .intro {
+        padding: 32% 8% 0 8%;
+    }
+    .hello {
+        font-size: 3.2rem;
+    }
+    .intro-content h4 {
+        margin-left: 50%;
+        font-size: 1.8rem;
+    }
+    .skills {
+        margin: 8% 0 0 auto;
+        width: 40%;
+    } 
+}
 
 

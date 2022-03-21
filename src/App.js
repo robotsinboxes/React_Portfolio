@@ -1,7 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-// import Background from './components/Background';
 import NavigationBar from './components/Navbar';
 import Intro from './components/Intro';
 import Quote from './components/Quote';
@@ -16,7 +15,7 @@ import { Parallax } from 'react-parallax';
 function App() {
   return (
     <div className="main-container">
-      <div className="navbar-container">
+      <div className="nav-container">
             <NavigationBar  />
       </div> 
       <div id="intro" className="intro-container">

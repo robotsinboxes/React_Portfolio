@@ -29,21 +29,29 @@
     padding: 10px;
 }
 
-@media only screen and (min-width: 481px) {
+@media only screen and (min-width: 576px) {
     .about-content p {
+        font-size: .9rem;
         margin-left: 10%;
         margin-right: 10%;;
     }
 }
 
-@media only screen and (min-width: 768px) {
-    .about-content p {
-        margin-left: 15%;
-        margin-right: 15%;
+@media only screen and (min-width: 1024px) {
+    .about-container {
+        margin: 5%;
     }
+    .about-title h5 {
+        font-size: 2.5rem;
+    }
+    .about-content p {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: .9rem;
+    }  
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1366px) {
     .about-content p {
         margin-left: 20%;
         margin-right: 20%;

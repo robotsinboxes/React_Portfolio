@@ -1,14 +1,12 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
-import { Container } from 'react-bootstrap'
 import { BiMenu } from 'react-icons/bi'
 import './Navbar.css';
 
 const NavigationBar = () => {
     return (
-      <Navbar collapseOnSelect expand="lg" fixed="top">
-        <Container className="navbar">
+      <Navbar collapseOnSelect expand="sm" fixed="top" className="navbar">
           <Navbar.Brand className='neon-text' href="#home">
             <span className="fast-flicker">L</span>
             <span className="fast-flicker">I</span>
@@ -26,10 +24,13 @@ const NavigationBar = () => {
             className="navbar-toggler" aria-controls="basic-navbar-nav" >
               <BiMenu/>
           </Navbar.Toggle>
-          <Navbar.Collapse id="basic-navbar-nav">
+          <Navbar.Collapse 
+          className="navbar-collapse"
+          id="basic-navbar-nav">
             <Nav 
               id="navbar-dropdown" 
               className="me-auto">
+                <div className="all-links">
                 <Nav.Link 
                   className="nav-links" href="#intro">Home
                 </Nav.Link>
@@ -42,9 +43,9 @@ const NavigationBar = () => {
                 <Nav.Link 
                   className="nav-links" href="#contact">Contact
                 </Nav.Link>
+                </div>
             </Nav>
           </Navbar.Collapse>
-        </Container>
       </Navbar>
     )
 }

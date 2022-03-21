@@ -25,16 +25,50 @@
 
 .contact-icon {
     color: rgba(255,255,255,.70);
-    font-size: 3rem;
+    font-size: 4rem;
     padding: 10%;
 }
+
 .btn {
-    padding: 4%;
+    padding: 3%;
     margin: 4%;
     justify-content: space-around;
     background-color: black;
     border: 1px solid rgba(255,255,255,.70);
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(255,255,255,.85);
+}
+
+@media only screen and (min-width: 768px) {
+    .btn {
+        padding: 1.5%;
+    }
+    .contact-icon {
+        font-size: 3rem;
+        padding: 8%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .btn {
+        padding: 1%;
+    }
+    .contact-title h5 {
+        font-size: 2.5rem;
+    }
+    .contact-icon {
+        font-size: 2.2rem;
+        padding: 5%;
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+    .contact-title h5 {
+        font-size: 2.5rem;
+    }
+    .contact-icon {
+        font-size: 2.5rem;
+        padding: 5%;
+    }
 }
 

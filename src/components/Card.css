@@ -36,3 +36,40 @@
     margin: 0 10% 0 10%;
     font-size: 5.5rem;
 }
+
+@media screen and (min-width: 576px) {
+    .card-title p {
+        font-size: 1.2rem;
+    }
+    .card-desc p {
+        font-size: .9rem;
+        padding-bottom: 2%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .card-title p {
+        font-size: 1.3rem;
+    }
+    .card-desc p {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .card-title p {
+        font-size: 1.3rem;
+    }
+    .card-desc p {
+        font-size: .9rem;
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+    .card-img-top {
+        width: 40%;
+    }
+    .card-desc p {
+        margin: 2% 15% 0 15%;
+    }
+}

@@ -11,3 +11,17 @@
     color: rgba(255, 255, 255, .70);
 }
 
+@media screen and (min-width: 576px) {
+    .footer-copyright p {
+        font-size: .6rem;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .footer-copyright p {
+        font-size: .7rem;
+    }
+}
+

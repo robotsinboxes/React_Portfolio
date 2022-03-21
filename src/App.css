@@ -11,6 +11,16 @@
   overflow: hidden;
 }
 
+.nav-container {
+  width: 100vw;
+  margin: 0;
+}
+
+.intro-container { 
+  text-align: right;
+  
+}
+
 .abt-container {
   padding: 10% 0;
 }
@@ -35,12 +45,28 @@
   height: 1vh;
 }
 
-@media(max-width: 768px) {
-  .particles-canvas { 
-    display: none;
+@media screen and (min-width: 576px) {
+  .abt-container {
+    padding: 8% 0;
   }
 }
 
+@media screen and (min-width: 768px) {
+  .abt-container {
+    padding: 0;
+  }
+  .projects-container {
+    padding-top: 5%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+ 
+}
+
+@media screen and (min-width: 1366px) {
+ 
+}
 
 
 
