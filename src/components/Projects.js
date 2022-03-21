@@ -8,9 +8,9 @@ import TAP101 from './../img/TAP101.gif';
 
 const Projects = () => {
     return (
-        <div id="portfolio" className="projects-container">
+        <div className="projects-container">
             <div className="text-center portfolio-title">
-                <h5>PORTFOLIO</h5>
+                <h5>PROJECTS</h5>
             </div>
             <div className="row project">
                 <Card 

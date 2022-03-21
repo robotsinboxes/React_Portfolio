@@ -1,12 +1,12 @@
 import React from 'react';
 import Typed from 'react-typed';
-import BlackRocks from './../img/black-rocks-landscape.jpg';
-import { Parallax } from 'react-parallax';
+// import BlackRocks from './../img/black-rocks-landscape.jpg';
+// import { Parallax } from 'react-parallax';
 import './Intro.css';
 
 const Intro = () => {
   return (
-    <Parallax id="intro" bgImage={BlackRocks}>
+    // <Parallax bgImage={BlackRocks}>
       <div className="intro">
         <div className="hello">Hello, friend.</div> 
         <div className="intro-content">
@@ -39,7 +39,7 @@ const Intro = () => {
           />
         </div>
       </div>
-    </Parallax>
+    // </Parallax>
   )
 }
 

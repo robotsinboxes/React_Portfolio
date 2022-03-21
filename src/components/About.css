@@ -1,16 +1,15 @@
+:root {
+    --off-white: rgba(255, 255, 255, 0.85);
+}
+
 .about-container {
     z-index: 0;
     text-align: center;
-    color: rgba(255,255,255,.70);
+    color: var(--off-white);
     background-color: rgba(0, 0, 0, 0);
-    border: 3px solid rgba(78, 80, 78, 0.79);
+    border: 2px solid var(--off-white);
     border-radius: 20px;
-    margin: 5% 8% 5% 8%;
-        background: radial-gradient(
-        rgb(20, 49, 61), 
-        rgb(27, 57, 70), 
-        rgb(20, 49, 61)
-    )
+    margin: 8%;
 }
 
 .about-title h5 {

@@ -1,31 +1,16 @@
-.card {
-    z-index: 0;
-    color: rgba(255,255,255,.70);
-    background-color: rgba(0, 0, 0, 0);
-    border: 3px solid rgba(78, 80, 78, 0.79);
-    border-radius: 20px;
-    margin: 5% 8% 5% 8%;
-        background: radial-gradient(
-        rgb(20, 49, 61), 
-        rgb(27, 57, 70), 
-        rgb(20, 49, 61)
-    )
-}
-
 .card-img-top {
     align-items: center;
-    width: 40%;
-    margin: 2% 10% 0 10%;
+    width: 60%;
+    margin: 0 10% 0 10%;
     border: .5px solid rgba(78, 80, 78, 0.79);
+    border-radius: 20px;
     padding: 1px;
-    background-color: rgb(255, 255, 255);
-
+    background-color: rgb(255, 255, 255, .85);
 }
 
 .card-body {
-    color: rgba(255,255,255,.70);
-    margin: 10px 0px 10px 0;
-    padding: 8px 0 8px 0;
+    color: rgba(255,255,255,.85);
+    padding-bottom: 0;
 }
 
 .card-title p {
@@ -48,5 +33,6 @@
 
 .divider {
     color: whitesmoke;
-    margin: 0 30px 0 30px;
+    margin: 0 10% 0 10%;
+    font-size: 5.5rem;
 }

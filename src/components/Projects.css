@@ -1,6 +1,10 @@
-.projects {
+.projects-container {
     display: block;
     align-items: center;
+}
+
+.project {
+    padding-bottom: 10%
 }
 
 .portfolio-title h5 {

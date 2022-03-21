@@ -1,0 +1,13 @@
+.footer-copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-copyright p{
+    font-size: .8rem;
+    font-style: italic;
+    padding-top: 4%;
+    color: rgba(255, 255, 255, .70);
+}
+
