@@ -2,7 +2,6 @@ import React from 'react';
 import Particles from "react-particles-js";
 import './Background.css';
 
-
 const Background = (props) => {
     return (
       <div className="bg-intro">
