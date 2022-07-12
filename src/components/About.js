@@ -1,11 +1,15 @@
 import React from 'react';
 import './About.css';
+import Portrait from '../img/portrait.jpg';
 
 const About = () => {
    return (
       <div className="about-container text-center">
          <div className="about-title">
                <h5>ABOUT</h5>
+         </div>
+         <div className="text-center about-img">
+            <img src={Portrait} className="rounded card-img-top" alt='portrait-img'  />
          </div>
          <div className="about-content">
                <p>

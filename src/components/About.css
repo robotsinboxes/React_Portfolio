@@ -1,59 +1,71 @@
 :root {
-    --off-white: rgba(255, 255, 255, 0.85);
+   --off-white: rgba(255, 255, 255, 0.85);
 }
 
 .about-container {
-    z-index: 0;
-    text-align: center;
-    color: var(--off-white);
-    background-color: rgba(0, 0, 0, 0);
-    border: 2px solid var(--off-white);
-    border-radius: 20px;
-    margin: 8%;
+   z-index: 0;
+   text-align: center;
+   color: var(--off-white);
+   background-color: rgba(0, 0, 0, 0);
+   border: 2px solid var(--off-white);
+   border-radius: 20px;
+   margin: 8%;
 }
 
 .about-title h5 {
-    padding-top: 20px;
-    margin-bottom: 2%;
-    font-size: 3rem;
-    color: rgb(255, 36, 131);
+   padding-top: 20px;
+   margin-bottom: 2%;
+   font-size: 3rem;
+   color: rgb(255, 36, 131);
 }
 
 .about-content {
-    padding-bottom: 20px;
+   padding-bottom: 20px;
 }
 
 .about-content p {
-    font-size: 1rem;
-    color: white;
-    padding: 10px;
+   font-size: 1rem;
+   color: white;
+   padding: 10px;
+}
+
+.about-img {
+   margin-bottom: 2%;
+}
+
+.about-img img {
+   align-items: center;
+   width: 30%;
+   border: .5px solid rgba(78, 80, 78, 0.79);
+   padding: 5px;
+   background-color: rgba(11, 8, 8, 0.85);
 }
 
 @media only screen and (min-width: 576px) {
-    .about-content p {
-        font-size: .9rem;
-        margin-left: 10%;
-        margin-right: 10%;;
-    }
+   .about-content p {
+      font-size: .9rem;
+      margin-left: 10%;
+      margin-right: 10%;;
+   }
 }
 
 @media only screen and (min-width: 1024px) {
-    .about-container {
-        margin: 5%;
-    }
-    .about-title h5 {
-        font-size: 2.5rem;
-    }
-    .about-content p {
-        margin-left: 10%;
-        margin-right: 10%;
-        font-size: .9rem;
-    }  
+   .about-container {
+      margin: 5%;
+   }
+   .about-title h5 {
+      font-size: 2.5rem;
+   }
+   .about-content p {
+      margin-left: 10%;
+      margin-right: 10%;
+      font-size: .9rem;
+   }  
 }
 
 @media only screen and (min-width: 1366px) {
-    .about-content p {
-        margin-left: 20%;
-        margin-right: 20%;
-    }  
+   .about-content p {
+      margin-left: 20%;
+      margin-right: 20%;
+   }  
 }
