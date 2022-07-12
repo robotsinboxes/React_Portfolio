@@ -1,62 +1,62 @@
 .quote {
-    display: block;
-    color: rgba(255,255,255,.70);
-    z-index: 9;
-    text-align: right;
-    padding: 8%;
-    overflow: hidden;    
-    color: rgba(255,255,255,.70);
-    position: relative;
+   display: block;
+   color: rgba(255,255,255,.70);
+   z-index: 9;
+   text-align: right;
+   padding: 8%;
+   overflow: hidden;    
+   color: rgba(255,255,255,.70);
+   position: relative;
 }
 
 .quote-text h5 {
-    text-align: center;
-    font-size: 1.8rem;
-    font-family: 'Reenie Beanie', cursive;
-    margin-top: 8%;
-    padding: 0 12%;
+   text-align: center;
+   font-size: 1.8rem;
+   font-family: 'Reenie Beanie', cursive;
+   margin-top: 8%;
+   padding: 0 12%;
 }
 
 .quote-author p {
-    text-align: center;
-    font-size: .9rem;
-    margin-bottom: 8%;
+   text-align: center;
+   font-size: .9rem;
+   margin-bottom: 8%;
 }
 
 @media screen and (min-width: 576px) {
-    .quote-text h5 {
-        font-size: 2rem;
-        font-weight: bold;
-    }
-    .quote-author p {
-        font-size: 1rem;
-        font-weight: bold;
-    }
+   .quote-text h5 {
+      font-size: 2rem;
+      font-weight: bold;
+   }
+   .quote-author p {
+      font-size: 1rem;
+      font-weight: bold;
+   }
 }
 
 @media screen and (min-width: 768px) {
-    .quote-text {
-        padding: 0 15%;
-    }
+   .quote-text {
+      padding: 0 15%;
+   }
 }
 
 @media screen and (min-width: 1024px) {
-    .quote-text {
-        padding: 0 25%;
-    }
-    .quote-text h5 {
-        font-size: 1.8rem;
-    }
-    .quote-author p {
-        font-size: 1rem;
-        font-weight: bold;
-        margin-top: 0;
-    }
+   .quote-text {
+      padding: 0 25%;
+   }
+   .quote-text h5 {
+      font-size: 1.8rem;
+   }
+   .quote-author p {
+      font-size: 1rem;
+      font-weight: bold;
+      margin-top: 0;
+   }
 }
 
 @media screen and (min-width: 1366px) {
-    .quote-text {
-        padding: 0 2%;
-    }
+   .quote-text {
+      padding: 0 2%;
+   }
 }
 

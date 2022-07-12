@@ -13,8 +13,8 @@ import BlackRocksLg from './img/black-rocks-lg.jpg';
 import { Parallax } from 'react-parallax';
 
 function App() {
-  return (
-    <div className="main-container">
+return (
+   <div className="main-container">
       <div className="nav-container">
             <NavigationBar  />
       </div> 
@@ -43,11 +43,11 @@ function App() {
             </Parallax>
       </div>
       <div className="footer-container">
-             <Footer />
+            <Footer />
       </div>
 
-    </div>
-  );
+   </div>
+);
 }
 
 export default App;
