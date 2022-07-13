@@ -51,16 +51,86 @@
    padding: 1%;
 } 
 
+@media only screen and (min-width: 354px) {
+   .intro-content h4 {
+      margin-left: 12%;
+   }
+   .skills {
+      margin: 10% 0 0 auto;
+      width: 85%;
+   }
+   .typed-text span {
+      font-size: 1.3rem;
+   }
+}
+
+@media only screen and (min-width: 377px) {
+   .intro-content h4 {
+      margin-left: 16%;
+   }
+}
+
+@media only screen and (min-width: 402px) {
+   .intro-content h4 {
+      margin-left: 14%;
+   }
+   .skills {
+      margin: 10% 0 0 auto;
+      width: 85%;
+   }
+}
+
+@media only screen and (min-width: 412px) {
+   .intro-content h4 {
+      margin-left: 18%;
+   }
+}
+
+@media only screen and (min-width: 432px) {
+   .intro-content h4 {
+      margin-left: 20%;
+   }
+}
+
+@media only screen and (min-width: 442px) {
+   .intro-content h4 {
+      margin-left: 25%;
+   }
+}
+
+@media only screen and (min-width: 472px) {
+   .intro-content h4 {
+      margin-left: 30%;
+   }
+   .skills {
+      width: 80%;
+   } 
+}
+
+@media only screen and (min-width: 506px) {
+   .intro-content h4 {
+      margin-left: 10%;
+   }
+}
+
 @media only screen and (min-width: 576px) {
    .intro {
       padding: 55% 8% 0 8%;
    }
    .intro-content h4 {
-      margin-left: 10%;
+      margin-left: 14%;
    }
    .skills {
-      margin: 10% 0 0 auto;
-      width: 60%;
+      width: 80%;
+   } 
+}
+
+@media only screen and (min-width: 636px) {
+   .intro-content h4 {
+      margin-left: 25%;
+   }
+   .skills {
+      width: 70%;
    } 
 }
 

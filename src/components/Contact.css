@@ -1,74 +1,74 @@
 :root {
-    --off-white: rgba(255, 255, 255, 0.85);
+   --off-white: rgba(255, 255, 255, 0.85);
 }
 
 .contact-info {
-    background-color: rgba(0, 0, 0, 0);
-    font-size: 24px;
-    text-align: center;
-    padding: 10% 3%;
+   background-color: rgba(0, 0, 0, 0);
+   font-size: 24px;
+   text-align: center;
+   padding: 10% 3%;
 }
 
 .contact-title h5 { 
-    padding-top: 0;
-    padding-bottom: 5px;
-    font-size: 3rem;
-    color: rgb(255, 36, 131);
+   padding-top: 0;
+   padding-bottom: 5px;
+   font-size: 3rem;
+   color: rgb(255, 36, 131);
 }
 
 .contact-links {
-    display: inline;
-    justify-content: center;
-    align-items: center;
-    color: var(--off-white);
+   display: inline;
+   justify-content: center;
+   align-items: center;
+   color: var(--off-white);
 }
 
 .contact-icon {
-    color: rgba(255,255,255,.70);
-    font-size: 4rem;
-    padding: 10%;
+   color: rgba(255,255,255,.70);
+   font-size: 2rem;
+   padding: 10%;
 }
 
 .btn {
-    padding: 3%;
-    margin: 4%;
-    justify-content: space-around;
-    background-color: black;
-    border: 1px solid rgba(255,255,255,.70);
-    border-radius: 50%;
-    box-shadow: 0 0 10px rgba(255,255,255,.85);
+   padding: 3%;
+   margin: 4%;
+   justify-content: space-around;
+   background-color: black;
+   border: 1px solid rgba(255,255,255,.70);
+   border-radius: 50%;
+   box-shadow: 0 0 10px rgba(255,255,255,.85);
 }
 
 @media only screen and (min-width: 768px) {
-    .btn {
-        padding: 1.5%;
-    }
-    .contact-icon {
-        font-size: 3rem;
-        padding: 8%;
-    }
+   .btn {
+      padding: 1.5%;
+   }
+   .contact-icon {
+      font-size: 3rem;
+      padding: 8%;
+   }
 }
 
 @media only screen and (min-width: 1024px) {
-    .btn {
-        padding: 1%;
-    }
-    .contact-title h5 {
-        font-size: 2.5rem;
-    }
-    .contact-icon {
-        font-size: 2.2rem;
-        padding: 5%;
-    }
+   .btn {
+      padding: 1%;
+   }
+   .contact-title h5 {
+      font-size: 2.5rem;
+   }
+   .contact-icon {
+      font-size: 2.2rem;
+      padding: 5%;
+   }
 }
 
 @media only screen and (min-width: 1366px) {
-    .contact-title h5 {
-        font-size: 2.5rem;
-    }
-    .contact-icon {
-        font-size: 2.5rem;
-        padding: 5%;
-    }
+   .contact-title h5 {
+      font-size: 2.5rem;
+   }
+   .contact-icon {
+      font-size: 2.5rem;
+      padding: 5%;
+   }
 }
 
