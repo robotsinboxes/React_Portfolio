@@ -32,16 +32,20 @@ const NavigationBar = () => {
                className="me-auto">
                <div className="all-links">
                   <Nav.Link 
-                     className="nav-links" href="#intro">Home
+                     className="nav-links" href="#intro">
+                        <h4 className='link-text'>Home</h4>
                   </Nav.Link>
                   <Nav.Link 
-                     className="nav-links" href="#about">About
+                     className="nav-links" href="#about">
+                        <h4 className='link-text'>About</h4>
                   </Nav.Link>
                   <Nav.Link 
-                     className="nav-links" href="#projects">Projects
+                     className="nav-links" href="#projects">
+                        <h4 className='link-text'>Projects</h4>
                   </Nav.Link>
                   <Nav.Link 
-                     className="nav-links" href="#contact">Contact
+                     className="nav-links" href="#contact">
+                        <h4 className='link-text'>Contact</h4>
                   </Nav.Link>
                </div>
             </Nav>

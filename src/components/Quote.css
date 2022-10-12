@@ -58,5 +58,11 @@
    .quote-text {
       padding: 0 2%;
    }
+   .quote-text h5 {
+      font-size: 3rem;
+   }
+   .quote-author p {         
+      font-size: 1.1rem;
+   }
 }
 

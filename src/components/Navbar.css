@@ -20,7 +20,11 @@
 
 .navbar {
    width: 100vw;
-   background: var(--background);
+   //background: var(--background);
+}
+
+.navbar-nav {
+   width: 100vw;
 }
 
 #navbar-dropdown {
@@ -29,25 +33,35 @@
 
 .neon-text span {
    font-family: 'Poppins', sans-serif;  
+   font-size: 2.2em;
+   margin-right: .3em;
+}
+
+.link-text {
+   color: white;
    font-size: 1.3em;
-   margin-right: .3rem;
+   padding: 1em;
+}
+
+.all-links {
+   padding-left: 35%;
 }
 
 .nav-links {
+   display: inline-block;
    font-family: 'Poppins', sans-serif;
-   color: var(--nav-links-toggler) !important; 
 }
 
 .nav-links:hover {
-   color: var(--nav-pink) !important;
+   color: var(--nav-pink);
 }
 
 .navbar-toggler {
-   color: var(--nav-links-toggler) !important;
+   color: var(--nav-links-toggler);
    margin: 1% 5% 2% 0;
    padding: 0;
 }
-
+/* 
 @media only screen and (min-width: 576px) {
    a.neon-text {
       margin-right: 1rem;
@@ -64,8 +78,8 @@
    .all-links {
       padding-left: 10px;
    }
-}
-
+} */
+/* 
 @media only screen and (min-width: 768px) {
    .neon-text span {
       font-size: 1.6rem;
@@ -98,7 +112,7 @@
       margin-right: 2rem;
       font-size: 1.2rem;
    }
-}
+} */
 
 /*
 *

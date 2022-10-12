@@ -18,7 +18,14 @@ margin: 0;
 
 .intro-container { 
 text-align: right;
+}
 
+#intro {
+   background-image: url('./img/black-rocks-lg.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed;
 }
 
 .abt-container {

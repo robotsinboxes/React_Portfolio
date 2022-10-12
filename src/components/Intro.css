@@ -4,43 +4,52 @@
 }
 
 .intro {
-   display: flex;
+   display: inline-block;
    height: 100vh;
-   flex-direction: column;
-   justify-content: right;
-   align-items: right;
-   padding: 65% 8% 0 8%;
+   width: 100vw;
    font-family: 'Poppins', sans-serif;
    overflow: hidden;
 }
 
-.hello {
-   font-size: 2.5rem;
-   padding-bottom: 6%;
+.hello h1 {
+   font-size: 9em;
    font-weight: 1000;
+   margin: 12% 10% 0 auto;
    overflow: hidden;    
    color: var(--primary-text);
+   text-align: right;
+
 }
 
-.intro-content h4 {
-   text-align: right;
-   justify-content: right;
-   font-size: 1.2rem;
-   font-weight: 800;
+.intro-content {
+   text-align: left;
    color: var(--primary-text);
-   right: 10px;
    z-index: 0;
-   padding-bottom: 3rem;
+   margin: 10% auto 5% 10%;
+}
+
+.intro-content h1 {
+   color: var(--secondary-text);
+   font-size: 4em;
+   font-weight: bold;
+   padding-bottom: 2%;
+}
+
+.intro-content h3 {
+   font-size: 2.5em;
+   font-weight: bold;
+   line-height: 1.5em;
 }
 
 .skills {
-   padding: 10% 8% 0 auto;
-   border: 2px solid rgba(255, 255, 255, 0.85);
+   margin-left: 10%;
+   border: 2px solid var(--primary-text);
    border-radius: 10px;
+   width: 20%;
 }
 
 .typed-text {
-   padding: 5%
+   padding: 5%;
 }
 
 .typed-text span {
@@ -48,9 +57,9 @@
    font-style: italic;
    font-weight: bold;
    font-size: 1.5rem;
-   padding: 1%;
+   padding: 2%;
 } 
-
+/* 
 @media only screen and (min-width: 354px) {
    .intro-content h4 {
       margin-left: 12%;
@@ -187,5 +196,5 @@
       width: 40%;
    } 
 }
-
+ */
 

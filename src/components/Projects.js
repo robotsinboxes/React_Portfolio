@@ -2,9 +2,9 @@ import React from 'react';
 import './Projects.css';
 import Card from './Card';
 import Button from './Button';
-import T3W from './../img/t3w.gif';
-import Filmbank from './../img/filmbank.gif';
 import NightDrive from './../img/night-drive.jpg';
+import T3W from './../img/t3w.gif';
+import SuperHost from './../img/teddy-site.jpg';
 
 const Projects = () => {
    return (
@@ -17,10 +17,22 @@ const Projects = () => {
                img={NightDrive} 
                title="Night Drive Music"
                desc=
-                  "This project is a band website showcasing Night Drive's songs, music videos, merchandise, news and upcoming live shows, built with React. I built the audio player with Javascript, and used React-Player for the embedded videos. * This app is still in progress *"
+                  "This project is a band website showcasing Night Drive's songs, music videos, merchandise, news and upcoming live shows, using ReactJS. The audio player was built with Javascript, and I used React-Player for the embedded videos. * This app is still in progress *"
             />
             <div className="project-btn-links text-center">
                <Button href="https://github.com/robotsinboxes/night-drive-music" btn="Github Repo"></Button>
+            </div> 
+         </div>
+
+         <div className="row project">
+            <Card 
+               img={SuperHost} 
+               title="Airbnb Superhost Site"
+               desc=
+                  "This is a simple website built to promote services provided by an Airbnb Superhost Ambassador using HTML and CSS."
+            />
+            <div className="project-btn-links text-center">
+               <Button href="https://github.com/robotsinboxes/vuong-superhost" btn="Github Repo"></Button>
             </div> 
          </div>
 
@@ -36,7 +48,7 @@ const Projects = () => {
                </div>
                <br></br>
          </div>
-         <div className="row project">
+         {/* <div className="row project">
             <Card 
                img={Filmbank} 
                title="FILMBANK"
@@ -47,7 +59,7 @@ const Projects = () => {
                <Button href="https://github.com/robotsinboxes/FilmBank" btn="Github Repo"></Button>
             </div>
             <br></br>
-         </div>
+         </div> */}
          <br></br>               
 
       </div>

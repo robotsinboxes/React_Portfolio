@@ -8,9 +8,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import BlackRocks from './img/black-rocks-landscape.jpg';
-import BlackRocksLg from './img/black-rocks-lg.jpg';
-import { Parallax } from 'react-parallax';
+
 
 function App() {
 return (
@@ -19,17 +17,13 @@ return (
             <NavigationBar  />
       </div> 
       <div id="intro" className="intro-container">
-            <Parallax bgImage={BlackRocksLg}>
-                  <Intro />
-            </Parallax>
+            <Intro />
       </div> 
       <div id="about" className="abt-container">
             <About />
       </div> 
       <div className="quote-container">
-            <Parallax bgImage={BlackRocksLg}>
-                  <Quote />
-            </Parallax>
+            <Quote />
       </div> 
       {/* <div className="space-container">
             <Background />
@@ -38,9 +32,7 @@ return (
             <Projects />
       </div>
       <div id="contact" className="contact-container">
-            <Parallax bgImage={BlackRocks}>
-                  <Contact />
-            </Parallax>
+            <Contact />
       </div>
       <div className="footer-container">
             <Footer />
