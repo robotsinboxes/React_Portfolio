@@ -10,8 +10,9 @@ const Projects = () => {
    return (
       <div className="projects-container">
          <div className="text-center project-title">
-               <h5>PROJECTS</h5>
+               <h1>PROJECTS</h1>
          </div>
+
          <div className="row project">
             <Card 
                img={NightDrive} 

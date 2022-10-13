@@ -6,7 +6,7 @@ import './Navbar.css';
 
 const NavigationBar = () => {
    return (
-      <Navbar collapseOnSelect expand="sm" fixed="top" className="navbar">
+      <Navbar collapseOnSelect expand="sm md" fixed="top" className="navbar">
          <Navbar.Brand className='neon-text' href="#home">
             <span className="fast-flicker">L</span>
             <span className="fast-flicker">I</span>

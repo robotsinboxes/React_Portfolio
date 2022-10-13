@@ -1,6 +1,7 @@
 import React from 'react';
-import Typed from 'react-typed';
+// import Typed from 'react-typed';
 import './Intro.css';
+//import Button from './Button';
 
 const Intro = () => {
 return (
@@ -9,10 +10,21 @@ return (
          <h1>Hello, friend.</h1>
       </div> 
       <div className="intro-content">
-         <h1>I am a UX/UI Designer and Frontend Developer.</h1>
-         <h3>I believe in creating meaningful and relevant experiences <br />for users in the context of designing beautiful apps. </h3>
+         <div className="intro-ux">
+            <h1>I am a 
+               <a class="btn-hover btn-color" href='#ux'>UX/UI Designer</a> 
+            </h1>
+         </div>
+         <div className="intro-dev">
+            <h1>and a  
+               <a class="btn-hover btn-color" href='#dev'>Frontend Developer</a>.
+            </h1>
+         </div>
+         <h3>I believe in creating meaningful and relevant experiences <br />for users in the
+            context of designing beautiful apps. 
+         </h3>
       </div>
-      <div className="skills">
+      {/* <div className="skills">
          <Typed 
             className='typed-text'
             strings={[
@@ -35,7 +47,7 @@ return (
             backSpeed={80}
             loop={true}
          />
-      </div>
+      </div> */}
    </div>
 )
 }
