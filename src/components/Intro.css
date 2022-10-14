@@ -1,6 +1,7 @@
 :root {
    --primary-text: rgba(255,255,255,.85);
    --secondary-text: rgb(252, 252, 15);
+   --shadow: rgba(191, 171, 176, 0.8);
    --font-heading: 'Corben', cursive;
    --font-text: 'Fredoka', sans-serif;
    --font-josefin-text: 'Josefin Sans', sans-serif;
@@ -45,7 +46,7 @@
    padding: 0.25em 0.5em;
 }
 
-.btn-hover {
+.btn-hover-intro {
    font-size: 0.75em;
    font-weight: 600;
    cursor: pointer;
@@ -61,7 +62,7 @@
    transition: all .4s ease-in-out;
  }
  
- .btn-hover:hover {
+ .btn-hover-intro:hover {
    background-position: 100% 0;
    moz-transition: all .4s ease-in-out;
    -o-transition: all .4s ease-in-out;
@@ -69,11 +70,11 @@
    transition: all .4s ease-in-out;
  }
  
- .btn-hover:focus {
+ .btn-hover-intro:focus {
    outline: none;
  }
  
- .btn-hover.btn-color {
+ .btn-hover-intro.btn-color {
    background-image: linear-gradient(
      to right,
      rgb(255, 36, 131),
@@ -81,7 +82,7 @@
      #522e4f,
      #f1bca7
    );
-   box-shadow: 0 10px 25px 0 rgba(191, 171, 176, 0.8);
+   box-shadow: 0 10px 25px 0 var(--shadow);
  } 
 
 .intro-content h3 {

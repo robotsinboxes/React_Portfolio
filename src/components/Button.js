@@ -8,7 +8,7 @@ const Button = (props) => {
                 href={props.href} 
                 target="_blank"
                 rel="noreferrer"
-                aria-label="github"
+                aria-label="link to site"
             >{props.btn}</a>                 
         </div>
     )

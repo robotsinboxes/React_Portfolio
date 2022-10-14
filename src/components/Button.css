@@ -1,3 +1,8 @@
+:root {
+   --primary-text: rgba(255,255,255,.85);
+   --shadow: rgba(191, 171, 176, 0.8);
+}
+
 .buttons {
     padding-bottom: 0;
 }
@@ -5,7 +10,8 @@
 .btn-hover {
    text-decoration: none;
    color: var(--primary-text);
-   padding: 0.25em 0.5em;
+   padding: 0.5em 1em;
+   font-size: 1em;
    font-weight: 600;
    cursor: pointer;
    margin: 0.5em;
@@ -21,6 +27,8 @@
  }
  
  .btn-hover:hover {
+   text-decoration: none;
+   color: var(--primary-text);
    background-position: 100% 0;
    moz-transition: all .4s ease-in-out;
    -o-transition: all .4s ease-in-out;
@@ -40,7 +48,7 @@
      #522e4f,
      #f1bca7
    );
-   box-shadow: 0 10px 25px 0 rgba(191, 171, 176, 0.8);
+   box-shadow: 0 0.25em 0.5em 0 var(--shadow);
  }
 
 /* .btn-link {

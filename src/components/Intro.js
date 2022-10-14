@@ -12,12 +12,12 @@ return (
       <div className="intro-content">
          <div className="intro-ux">
             <h1>I am a 
-               <a class="btn-hover btn-color" href='#ux'>UX/UI Designer</a> 
+               <a class="btn-hover-intro btn-color" href='#ux'>UX/UI Designer</a> 
             </h1>
          </div>
          <div className="intro-dev">
             <h1>and a  
-               <a class="btn-hover btn-color" href='#dev'>Frontend Developer</a>.
+               <a class="btn-hover-intro btn-color" href='#dev'>Frontend Developer</a>.
             </h1>
          </div>
          <h3>I believe in creating meaningful and relevant <br />experiences for users in the

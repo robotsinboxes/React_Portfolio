@@ -1,53 +1,46 @@
+:root {
+   --font-text: 'Fredoka', sans-serif;
+   --primary-text: rgba(255,255,255,.85);
+}
+
 .card-img-top {
    align-items: center;
-   width: 60%;
+   width: 75%;
    margin: 0 10% 0 10%;
-   border: .5px solid rgba(78, 80, 78, 0.79);
    border-radius: 20px;
    padding: 1px;
-   background-color: rgb(255, 255, 255, .85);
 }
 
 .card-body {
-   color: rgba(255,255,255,.85);
+   color: var(--primary-text);
    padding-bottom: 0;
 }
 
-.card-title p {
-   font-size: 1.5rem;
+.card-title h1 {
+   font-family: var(--font-text);
+   font-size: 3em;
+   margin: 5% auto;
 }
 
-.card-desc p {
-   font-size: 1rem;
-   margin: 2% 10% 0 10%;
-}
-
-.card:hover {
-   box-shadow: 5px 8px 10px 2px rgb(27, 57, 70) !important;
+.card-desc h4 {
+   font-family: var(--font-text);
+   font-size: 1.8em;
+   margin: 5% 10% 5% 10%;
 }
 
 .project-btn-links {
    font-size: .5rem;
-   color: rgba(255,255,255,.70);
+   color: var(--primary-text);
 }
 
 .divider {
-   color: whitesmoke;
+   color: var(--primary-text);
    margin: 0 10% 0 10%;
    font-size: 5.5rem;
 }
 
-@media screen and (min-width: 576px) {
-   .card-title p {
-      font-size: 1.2rem;
-   }
-   .card-desc p {
-      font-size: .9rem;
-      padding-bottom: 2%;
-   }
-}
 
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
    .card-title p {
       font-size: 1.3rem;
    }
@@ -72,4 +65,4 @@
    .card-desc p {
       margin: 2% 15% 0 15%;
    }
-}
+} */

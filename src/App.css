@@ -1,3 +1,7 @@
+:root {
+   --green-black: rgba(9, 25, 26);
+}
+
 * {
    margin: 0;
    padding: 0;
@@ -5,7 +9,7 @@
 }
 
 .main-container {
-   background-color: rgb(17, 25, 28);
+   background-color: var(--green-black);
    width: 100vw;
    overflow: hidden;
 }
@@ -29,7 +33,7 @@
 }
 
 #about {
-   background-color: #0f1d1f;
+   background-color: var(--green-black);
 }
 
 #quote {
@@ -42,21 +46,15 @@
    height: 60vh;
 }
 
-#design-projects {
-   background-color: #0f1d1f;
-}
-
-#development-projects {
-   background-color: #0f1d1f;
-}
-
-#contact {
-   background-color: #0f1d1f;
+#design-projects,
+#development-projects,
+#contact,
+#footer {
+   background-color: var(--green-black);
 }
 
 #footer {
    padding: 2% 0 2% 0;
-   background-color: #0f1d1f;
 }
 
 /* .space-container {

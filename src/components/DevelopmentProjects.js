@@ -2,50 +2,56 @@ import React from 'react';
 import './DevelopmentProjects.css';
 import Card from './Card';
 import Button from './Button';
-import NightDrive from './../img/night-drive.jpg';
+import NightDrive from './../img/night-drive-app.gif';
 import T3W from './../img/t3w.gif';
-import SuperHost from './../img/teddy-site.jpg';
+import SuperHost from './../img/teddy-app.gif';
 
 const DevelopmentProjects = () => {
    return (
-      <div className="projects-container">
+      <div className="dev-projects-container container">
          <div className="text-center project-title">
                <h1>DEVELOPMENT PROJECTS</h1>
          </div>
-
-         <div className="row project">
+         <div className="dev-project1">
             <Card 
                img={NightDrive} 
                title="Night Drive Music"
                desc=
-                  "This project is a band website showcasing Night Drive's songs, music videos, merchandise, news and upcoming live shows, using ReactJS. The audio player was built with Javascript, and I used React-Player for the embedded videos. * This app is still in progress *"
+                  "Night Drive is a dark synth-pop band based in Austin, TX. This website showcases their songs, music videos, merchandise, news and upcoming live shows. *This project is in progress*."
             />
             <div className="project-btn-links text-center">
-               <Button href="https://github.com/robotsinboxes/night-drive-music" btn="Github Repo"></Button>
+               <Button href="https://nightdrivemusic.netlify.app/" 
+                  btn="Website"></Button>
+               <Button href="https://github.com/robotsinboxes/Tethered-to-the-Weather"   
+                  btn="Github"></Button>
             </div> 
          </div>
 
-         <div className="row project">
+         <div className="dev-project2">
             <Card 
                img={SuperHost} 
-               title="Airbnb Superhost Site"
+               title="Airbnb Superhost Services"
                desc=
-                  "This is a simple website built to promote services provided by an Airbnb Superhost Ambassador using HTML and CSS."
+                  "Teddy Vuong is an Airbnb Superhost Amabassor - this is a simple website built to promote services to help others start their own Airbnbs."
             />
             <div className="project-btn-links text-center">
-               <Button href="https://github.com/robotsinboxes/vuong-superhost" btn="Github Repo"></Button>
+               <Button href="https://www.superhostteddy.com/" 
+                  btn="Website"></Button>
+               <Button href="https://github.com/robotsinboxes/Tethered-to-the-Weather" 
+                  btn="Github"></Button>
             </div> 
          </div>
 
-         <div className="row project">
+         <div className="dev-project3">
                <Card 
                   img={T3W} 
-                  title="TETHERED TO THE WEATHER"
+                  title="Tethered to The Weather"
                   desc=
-                     "A weather dashboard that allows the user to look up the current weather and 5 day weather forecast for any city. While the app is quite simplistic, it was the first project I built from start to finish on my own. I am currently in the process of rebuilding the app using a mobile-first approach as well as newly learned technologies. This app was built using HTML/CSS and JavaScript and utilizes the Open Weather Map API."  
+                     "T3W is a weather dashboard that allows users to look up the current weather and 5 day weather forecast for any city."  
                />
                <div className="project-btn-links text-center">
-                  <Button className="btn1" href="https://github.com/robotsinboxes/Tethered-to-the-Weather" btn="Github Repo"></Button>
+                  <Button href="https://github.com/robotsinboxes/Tethered-to-the-Weather" 
+                     btn="Github"></Button>
                </div>
                <br></br>
          </div>

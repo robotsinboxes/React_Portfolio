@@ -10,11 +10,11 @@ const Card = (props) => {
          </div>
          <div className="card-body">
             <div className="text-center card-title">
-               <p>{props.title}</p>
+               <h1>{props.title}</h1>
             </div>
             <hr className="divider"></hr>
             <div className="text-center card-desc">
-               <p>{props.desc}</p>
+               <h4>{props.desc}</h4>
             </div>
          </div>
          <br></br>
