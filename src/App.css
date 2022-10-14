@@ -30,14 +30,9 @@
 
 #about {
    background-color: #0f1d1f;
-   /* background-image: url('./img/bg-haze.jpg');
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position: bottom right;
-   width: 100vw; */
 }
 
-.quote-container {
+#quote {
    background-image: url('./img/bg-haze.jpg');
    background-size: cover;
    background-repeat: no-repeat;
@@ -47,13 +42,21 @@
    height: 60vh;
 }
 
-.projects-container {
-   padding-top: 10%;
+#design-projects {
+   background-color: #0f1d1f;
 }
 
-.footer-container {
+#development-projects {
+   background-color: #0f1d1f;
+}
+
+#contact {
+   background-color: #0f1d1f;
+}
+
+#footer {
    padding: 2% 0 2% 0;
-   background-color: rgba(0, 0, 0, 0)
+   background-color: #0f1d1f;
 }
 
 /* .space-container {

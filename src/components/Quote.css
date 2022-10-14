@@ -15,11 +15,11 @@
    position: relative;
 }
 
-.quote-text h5 {
+.quote-text h1 {
    font-family: var(--font-heading);
    font-size: 2.8rem;
    text-align: center;
-   margin: 6% auto 2% auto;
+   margin: 5% auto 2% auto;
    padding: 0 12%;
 }
 

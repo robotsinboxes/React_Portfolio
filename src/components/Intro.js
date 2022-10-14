@@ -1,7 +1,7 @@
 import React from 'react';
 // import Typed from 'react-typed';
 import './Intro.css';
-//import Button from './Button';
+import Button from './Button';
 
 const Intro = () => {
 return (
@@ -20,7 +20,7 @@ return (
                <a class="btn-hover btn-color" href='#dev'>Frontend Developer</a>.
             </h1>
          </div>
-         <h3>I believe in creating meaningful and relevant experiences <br />for users in the
+         <h3>I believe in creating meaningful and relevant <br />experiences for users in the
             context of designing beautiful apps. 
          </h3>
       </div>

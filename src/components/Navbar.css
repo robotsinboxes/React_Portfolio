@@ -4,6 +4,7 @@
    --neon-med-pink: rgb(255, 101, 189);
    --neon-dark-pink: rgb(255, 36, 131);
    --nav-links-toggler: rgba(255, 255, 255, 0.85);
+   --primary-text: rgba(255,255,255,.85);
    --font-heading: 'Corben', cursive;
    --font-text: 'Fredoka', sans-serif;
    /* --font-josefin-text: 'Josefin Sans', sans-serif;
@@ -32,12 +33,12 @@
 }
 
 .neon-text {
-   padding-right: 2em;
+   padding-right: 36%;
 }
 
 .neon-text span {
    font-family: var(--font-text);  
-   font-size: 2.2em;
+   font-size: 2em;
    margin-right: .3em;
 }
 
@@ -47,11 +48,26 @@
    align-items: center;
 }
 
-.link-text {
+.link-text,
+#basic-nav-dropdown {
    color: white;
    font-size: 1.3em;
-   padding: 1em;
+   padding: 0 1em;
    font-family: var(--font-text);
+}
+
+#basic-nav-dropdown:hover {
+   color: var(--neon-dark-pink);
+}
+
+.dropdown-link {
+   color: var(--green-black);
+   font-weight: bold;
+}
+
+.dropdown-link:hover {
+   color: var(--primary-text);
+   background-color: var(--neon-dark-pink);
 }
 
 .nav-links {
@@ -62,11 +78,6 @@
    color: var(--neon-dark-pink);
 }
 
-.navbar-toggler {
-   color: var(--nav-links-toggler);
-   margin: 1% 5% 2% 0;
-   padding: 0;
-}
 /* 
 @media only screen and (min-width: 576px) {
    a.neon-text {

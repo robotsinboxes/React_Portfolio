@@ -1,8 +1,11 @@
 import React from 'react';
-import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
-import { TiThMenu } from 'react-icons/ti'
+import Navbar from 'react-bootstrap/Navbar'
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import { HiMenu } from 'react-icons/hi'
 import './Navbar.css';
+
+const style = { color: "rgb(255, 36, 131)", fontSize: "1em" };
 
 const NavigationBar = () => {
    return (
@@ -21,8 +24,10 @@ const NavigationBar = () => {
             <span className="fast-flicker">L</span>
          </Navbar.Brand>
          <Navbar.Toggle    
-            className="navbar-toggler" aria-controls="basic-navbar-nav" >
-            <TiThMenu/>
+            className="navbar-toggler" 
+            aria-controls="basic-navbar-nav" 
+            style={style}>
+            <HiMenu/>
          </Navbar.Toggle>
          <Navbar.Collapse 
             className="navbar-collapse"
@@ -39,10 +44,20 @@ const NavigationBar = () => {
                      className="nav-links" href="#about">
                         <h4 className='link-text'>About</h4>
                   </Nav.Link>
-                  <Nav.Link 
-                     className="nav-links" href="#projects">
-                        <h4 className='link-text'>Projects</h4>
-                  </Nav.Link>
+                  <NavDropdown
+                     title="Projects" 
+                     className="nav-links"
+                     id='basic-nav-dropdown'
+                     alignRight>
+                        <NavDropdown.Item 
+                           className="dropdown-link" 
+                           href="#design">Design
+                        </NavDropdown.Item>
+                        <NavDropdown.Item 
+                           className="dropdown-link" 
+                           href="#development">Development
+                        </NavDropdown.Item>
+                  </NavDropdown>
                   <Nav.Link 
                      className="nav-links" href="#contact">
                         <h4 className='link-text'>Contact</h4>

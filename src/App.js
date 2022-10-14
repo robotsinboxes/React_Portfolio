@@ -5,7 +5,7 @@ import NavigationBar from './components/Navbar';
 import Intro from './components/Intro';
 import Quote from './components/Quote';
 import About from './components/About';
-import Projects from './components/Projects';
+import DevelopmentProjects from './components/DevelopmentProjects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -22,19 +22,19 @@ return (
       <div id="about" className="abt-container">
             <About />
       </div> 
-      <div className="quote-container">
+      <div id="quote" className="quote-container">
             <Quote />
       </div> 
       {/* <div className="space-container">
             <Background />
       </div> */}
-      <div id="projects" className="card-container"> 
-            <Projects />
+      <div id="development-projects" className="projects-container"> 
+            <DevelopmentProjects />
       </div>
       <div id="contact" className="contact-container">
             <Contact />
       </div>
-      <div className="footer-container">
+      <div id="footer" className="footer-container">
             <Footer />
       </div>
 
